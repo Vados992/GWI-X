@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#356070"/></marker></defs>
+<rect width="1400" height="650" fill="#f7f9fb"/>
+<g font-family="sans-serif" fill="#152738">
+<text x="50" y="55" font-size="30">GWI-X v1.2 | Recursive annual coupling</text>
+<text x="50" y="87" font-size="19">SYNTHETIC inputs and parameters. Explicit public financing. No payment execution.</text>
+<g stroke="#356070" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+<path d="M300 200 L380 200"/><path d="M680 200 L760 200"/><path d="M1060 200 L1140 200"/>
+<path d="M910 260 L910 390"/><path d="M760 445 L680 445"/>
+<path d="M380 445 L340 445 L340 240 L380 240"/>
+<path d="M520 260 L520 375"/>
+<path d="M1060 445 L1220 445 L1220 260"/>
+<path d="M1140 220 L1100 220 L1100 340 L520 340 L520 260"/>
+</g>
+<g stroke="#86a8b3" stroke-width="1.5" fill="#ffffff">
+<rect x="50" y="140" width="250" height="120" rx="12"/>
+<rect x="380" y="140" width="300" height="120" rx="12"/>
+<rect x="760" y="140" width="300" height="120" rx="12"/>
+<rect x="1140" y="140" width="210" height="120" rx="12"/>
+<rect x="380" y="390" width="300" height="120" rx="12"/>
+<rect x="760" y="390" width="300" height="120" rx="12"/>
+</g>
+<g font-size="22">
+<text x="75" y="180">Seed + population</text><text x="75" y="215">JSON policy rules</text><text x="75" y="244" font-size="18">Common random numbers</text>
+<text x="405" y="179">Household engine</text><text x="405" y="215" font-size="18">Gross / net / real income</text><text x="405" y="244" font-size="18">Benefits + adult EMTRs</text>
+<text x="785" y="179">Fiscal engine + gates</text><text x="785" y="215" font-size="18">Tax receipts / obligations</text><text x="785" y="244" font-size="18">Four separate fund purposes</text>
+<text x="1160" y="179">Debt + liquidity</text><text x="1160" y="215" font-size="18">No financing?</text><text x="1160" y="244" font-size="18">Stop failed year</text>
+<text x="405" y="430">Next-year state</text><text x="405" y="466" font-size="18">CPI / nominal wages / jobs</text><text x="405" y="495" font-size="18">Lagged risk comparison</text>
+<text x="785" y="430">Macro engine</text><text x="785" y="466" font-size="18">Consumption / investment</text><text x="785" y="495" font-size="18">Output / capital / TFP / CPI</text>
+</g>
+<text x="700" y="183" font-size="15">tax</text><text x="925" y="322" font-size="17">funded investment</text>
+<text x="550" y="370" font-size="17">Income -&gt; demand; incentives -&gt; jobs</text>
+<text x="50" y="575" font-size="21">Counterfactual: the same shocks, population and employment draws, with reform switched off.</text>
+<text x="50" y="612" font-size="19">All three engines commit a year only after cash, fund and GDP identities pass.</text>
+</g></svg>

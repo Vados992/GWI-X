@@ -1,0 +1,13 @@
+{
+  "name": "debt_stress_control",
+  "status": "blocked_unfunded",
+  "completed_years": 7,
+  "failure": {
+    "year": 2034,
+    "kind": "national_financing",
+    "required": 15944249712.103569,
+    "available": 14286986044.892548,
+    "gap": 1657263667.2110214,
+    "explanation": "No transactions committed for failed year; no automatic cancellation or monetary financing."
+  }
+}

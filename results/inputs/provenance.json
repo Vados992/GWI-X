@@ -1,0 +1,12 @@
+{
+  "data_status": "SYNTHETIC",
+  "generator": "gwix.households.generate",
+  "seed": 1202,
+  "households": 1200,
+  "population_households": 1000000,
+  "country": null,
+  "currency": "CU - fictional currency unit",
+  "national_observations_used": false,
+  "behavioral_parameters": "illustrative assumptions, not estimates",
+  "architecture_source": "User-supplied GWI-X v1.2 specification, 2026-10-29"
+}

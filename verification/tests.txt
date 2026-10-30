@@ -1,0 +1,49 @@
+test_archive_root_does_not_depend_on_clone_folder (test_delivery.DeliveryTests.test_archive_root_does_not_depend_on_clone_folder) ... ok
+test_json_uses_canonical_lf (test_delivery.DeliveryTests.test_json_uses_canonical_lf) ... ok
+test_manifest_excludes_local_state_and_release_recursion (test_delivery.DeliveryTests.test_manifest_excludes_local_state_and_release_recursion) ... ok
+test_numeric_comparison_tolerates_only_tiny_float_roundoff (test_delivery.DeliveryTests.test_numeric_comparison_tolerates_only_tiny_float_roundoff) ... ok
+test_config_bad_units_rates_schedule (test_models.ConfigAndMacroTests.test_config_bad_units_rates_schedule) ... ok
+test_config_rejects_unknown_national_claim (test_models.ConfigAndMacroTests.test_config_rejects_unknown_national_claim) ... ok
+test_invalid_scenario (test_models.ConfigAndMacroTests.test_invalid_scenario) ... ok
+test_macro_extreme_domain_fails_visible (test_models.ConfigAndMacroTests.test_macro_extreme_domain_fails_visible) ... ok
+test_public_investment_lag_and_capital_identity (test_models.ConfigAndMacroTests.test_public_investment_lag_and_capital_identity) ... ok
+test_surprise_inflation_erodes_real_wage (test_models.ConfigAndMacroTests.test_surprise_inflation_erodes_real_wage) ... ok
+test_closed_gate_stops_new_not_existing (test_models.FiscalTests.test_closed_gate_stops_new_not_existing) ... ok
+test_consolidated_identity_independent (test_models.FiscalTests.test_consolidated_identity_independent) ... ok
+test_multiyear_ceiling_not_forecast_savings (test_models.FiscalTests.test_multiyear_ceiling_not_forecast_savings) ... ok
+test_no_automatic_national_financing (test_models.FiscalTests.test_no_automatic_national_financing) ... ok
+test_protected_payments_before_investment (test_models.FiscalTests.test_protected_payments_before_investment) ... ok
+test_repay_debt_then_hold_cash (test_models.FiscalTests.test_repay_debt_then_hold_cash) ... ok
+test_reserve_draw_is_not_revenue (test_models.FiscalTests.test_reserve_draw_is_not_revenue) ... ok
+test_unfunded_claim_fails_without_mutation (test_models.FiscalTests.test_unfunded_claim_fails_without_mutation) ... ok
+test_all_stress_stock_flow_identities (test_models.IntegrationTests.test_all_stress_stock_flow_identities) ... ok
+test_all_three_links_respond (test_models.IntegrationTests.test_all_three_links_respond) ... ok
+test_complete_ten_year_core (test_models.IntegrationTests.test_complete_ten_year_core) ... ok
+test_debt_stress_stops_expansion (test_models.IntegrationTests.test_debt_stress_stops_expansion) ... ok
+test_group_totals (test_models.IntegrationTests.test_group_totals) ... ok
+test_inflation_gate_threshold (test_models.IntegrationTests.test_inflation_gate_threshold) ... ok
+test_micro_macro_budget_aggregation (test_models.IntegrationTests.test_micro_macro_budget_aggregation) ... ok
+test_no_counterfactual_no_risk_gate_pass (test_models.IntegrationTests.test_no_counterfactual_no_risk_gate_pass) ... ok
+test_price_inflation_timing (test_models.IntegrationTests.test_price_inflation_timing) ... ok
+test_repeatability (test_models.IntegrationTests.test_repeatability) ... ok
+test_zero_funding_blocks_instead_of_fake_payment (test_models.IntegrationTests.test_zero_funding_blocks_instead_of_fake_payment) ... ok
+test_continuous_topup_boundaries (test_models.MicroTests.test_continuous_topup_boundaries) ... ok
+test_contract_review (test_models.MicroTests.test_contract_review) ... ok
+test_currency_and_price_dimensions (test_models.MicroTests.test_currency_and_price_dimensions) ... ok
+test_employment_reproducible_and_bounded (test_models.MicroTests.test_employment_reproducible_and_bounded) ... ok
+test_emtr_checks_second_adult (test_models.MicroTests.test_emtr_checks_second_adult) ... ok
+test_emtr_independent_derivative (test_models.MicroTests.test_emtr_independent_derivative) ... ok
+test_hand_calculated_household (test_models.MicroTests.test_hand_calculated_household) ... ok
+test_household_cap (test_models.MicroTests.test_household_cap) ... ok
+test_identity_and_time_fraud (test_models.MicroTests.test_identity_and_time_fraud) ... ok
+test_invalid_price_and_earnings (test_models.MicroTests.test_invalid_price_and_earnings) ... ok
+test_no_employer_cost_increase_at_fixed_contract (test_models.MicroTests.test_no_employer_cost_increase_at_fixed_contract) ... ok
+test_no_emtr_for_nonworker (test_models.MicroTests.test_no_emtr_for_nonworker) ... ok
+test_population_weights_and_disjoint_groups (test_models.MicroTests.test_population_weights_and_disjoint_groups) ... ok
+test_tax_progressive_bands (test_models.MicroTests.test_tax_progressive_bands) ... ok
+test_unverified_new_claim_gets_no_gwi (test_models.MicroTests.test_unverified_new_claim_gets_no_gwi) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 1.865s
+
+OK

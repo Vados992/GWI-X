@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_numeric_checks": 185694,
+  "household_rows": 183600,
+  "max_absolute_residual_CU": 1.049041748046875e-05,
+  "tolerance_CU": 0.0001
+}

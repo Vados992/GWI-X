@@ -1,0 +1,14 @@
+flowchart LR
+    C[JSON configuration + synthetic households] --> H[Household engine]
+    L[Previous employment, CPI, wages] --> H
+    H -->|taxes, contributions, statutory benefits| F[National fiscal engine]
+    F --> G{Expansion gates}
+    G -->|funded cohort| I[Income Fund + Social Clearing]
+    I -->|disposable income| H
+    F --> R[Liquid reserve and public debt]
+    F -->|funded investment| M[Macro dynamics]
+    H -->|consumption and marginal incentives| M
+    M -->|GDP and taxable activity| F
+    M -->|next-year CPI, wages and job transitions| L
+    B[Same shocks without reform] -->|lagged comparison| G
+    R -->|funding shortfall| X[Stop before committing failed year]
