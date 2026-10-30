@@ -2,3 +2,5 @@
 *.png binary
 *.pdf binary
 *.zip binary
+*.sqlite binary
+data/official/**/raw/** binary

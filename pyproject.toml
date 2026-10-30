@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gwix-synthetic-lab"
-version = "1.2.0"
-description = "Reproducible synthetic fiscal-household-macro laboratory"
+version = "1.2.1"
+description = "Fiscal-household-macro laboratory with official Portugal evidence and bounded diagnostics"
 requires-python = ">=3.11"
 dependencies = []
 
@@ -14,4 +14,4 @@ png = ["Pillow==12.2.0"]
 pdf = ["Pillow==12.2.0", "reportlab==4.5.0"]
 
 [tool.setuptools]
-packages = ["gwix"]
+packages = ["gwix", "gwix.official"]

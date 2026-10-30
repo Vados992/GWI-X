@@ -1,0 +1,45 @@
+{
+  "additional_programme_spending_eur": 0,
+  "full_real_data_policy_run": "BLOCKED",
+  "household_microsimulation": "NOT_VALIDATED_ON_REAL_MICRODATA",
+  "payments_executed": 0,
+  "production": "NO_GO",
+  "requirements": [
+    {
+      "reason": "Open official aggregates fetched; see individual receipts",
+      "requirement": "official_aggregate_sources",
+      "satisfied": true
+    },
+    {
+      "reason": "Real EU-SILC scientific-use files or a licensed national household survey; public EU-SILC files are synthetic",
+      "requirement": "observed_licensed_microdata",
+      "satisfied": false
+    },
+    {
+      "reason": "Versioned Portuguese IRS, contributions, pension and benefit rules plus national benchmark comparisons",
+      "requirement": "national_tax_benefit_engine",
+      "satisfied": false
+    },
+    {
+      "reason": "Verified appropriation/reallocation and legal authority; subsidies D3PAY are not free programme funding",
+      "requirement": "programme_funding_authorisation",
+      "satisfied": false
+    },
+    {
+      "reason": "Verified liquid reserve owned by the programme; general-government deposits cannot be assumed available",
+      "requirement": "programme_opening_reserve",
+      "satisfied": false
+    },
+    {
+      "reason": "Government cash execution, financial accounts, debt repayment schedule and full stock-flow bridge",
+      "requirement": "cash_accrual_bridge",
+      "satisfied": false
+    },
+    {
+      "reason": "Estimated behaviour, productive-capital mapping and validated structural effects; small hindcast is insufficient",
+      "requirement": "empirical_behaviour_and_policy_validation",
+      "satisfied": false
+    }
+  ],
+  "why": "Official aggregates cannot identify individual tax/benefit schedules or authorise GWI-X payments"
+}

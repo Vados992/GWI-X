@@ -1,0 +1,649 @@
+[
+  {
+    "dataset": "nama_10_gdp",
+    "id": "national_accounts_current",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "gdp_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "B1GQ",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "household_consumption_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P31_S14_S15",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "government_consumption_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P3_S13",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "gfcf_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P51G",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "inventories_valuables_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P52_P53",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "exports_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P6",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "imports_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P7",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "expenditure_discrepancy_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "YA0",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "wages_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D11",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=CP_MEUR&na_item=B1GQ&na_item=P31_S14_S15&na_item=P3_S13&na_item=P51G&na_item=P52_P53&na_item=P6&na_item=P7&na_item=YA0&na_item=D11"
+  },
+  {
+    "dataset": "nama_10_gdp",
+    "id": "national_accounts_volume",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "chain_volume_nonadditive",
+        "concept": "gdp_real",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "B1GQ",
+          "unit": "CLV20_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR2020_CHAIN"
+      },
+      {
+        "basis": "chain_volume_nonadditive",
+        "concept": "household_consumption_real",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P31_S14_S15",
+          "unit": "CLV20_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR2020_CHAIN"
+      },
+      {
+        "basis": "chain_volume_nonadditive",
+        "concept": "government_consumption_real",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P3_S13",
+          "unit": "CLV20_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR2020_CHAIN"
+      },
+      {
+        "basis": "chain_volume_nonadditive",
+        "concept": "gfcf_real",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P51G",
+          "unit": "CLV20_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR2020_CHAIN"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=CLV20_MEUR&na_item=B1GQ&na_item=P31_S14_S15&na_item=P3_S13&na_item=P51G"
+  },
+  {
+    "dataset": "gov_10a_main",
+    "id": "government_accounts",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "revenue",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "TR",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "expenditure",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "TE",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "net_lending",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "B9",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "interest_accrued",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D41PAY",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "social_benefits_cash",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D62PAY",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "social_contributions",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D61REC",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "public_gfcf_nominal",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "P51G",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "subsidies_paid",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D3PAY",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      },
+      {
+        "basis": "ESA2010_accrual_flow",
+        "concept": "household_income_tax",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "D51A_C1REC",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_main?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&sector=S13&unit=MIO_EUR&na_item=TR&na_item=TE&na_item=B9&na_item=D41PAY&na_item=D62PAY&na_item=D61REC&na_item=P51G&na_item=D3PAY&na_item=D51A_C1REC"
+  },
+  {
+    "dataset": "gov_10dd_edpt1",
+    "id": "government_debt",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "Maastricht_nominal_year_end_stock",
+        "concept": "debt",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "GD",
+          "sector": "S13",
+          "unit": "MIO_EUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&sector=S13&unit=MIO_EUR&na_item=GD"
+  },
+  {
+    "dataset": "prc_hicp_aind",
+    "id": "hicp_legacy_annual",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "annual_average_legacy_ECOICOP",
+        "concept": "hicp_index",
+        "dimensions": {
+          "coicop": "CP00",
+          "freq": "A",
+          "geo": "PT",
+          "unit": "INX_A_AVG"
+        },
+        "multiplier": "1",
+        "unit": "INDEX_SOURCE_BASE"
+      },
+      {
+        "basis": "annual_average_legacy_ECOICOP",
+        "concept": "hicp_inflation",
+        "dimensions": {
+          "coicop": "CP00",
+          "freq": "A",
+          "geo": "PT",
+          "unit": "RCH_A_AVG"
+        },
+        "multiplier": ".01",
+        "unit": "FRACTION"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_aind?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&coicop=CP00&unit=INX_A_AVG&unit=RCH_A_AVG"
+  },
+  {
+    "dataset": "lfsi_emp_a",
+    "id": "employment",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "resident_LFS_population_20_64",
+        "concept": "employment_rate_20_64",
+        "dimensions": {
+          "age": "Y20-64",
+          "freq": "A",
+          "geo": "PT",
+          "indic_em": "EMP_LFS",
+          "sex": "T",
+          "unit": "PC_POP"
+        },
+        "multiplier": ".01",
+        "unit": "FRACTION"
+      },
+      {
+        "basis": "resident_LFS_population_20_64",
+        "concept": "employed_20_64",
+        "dimensions": {
+          "age": "Y20-64",
+          "freq": "A",
+          "geo": "PT",
+          "indic_em": "EMP_LFS",
+          "sex": "T",
+          "unit": "THS_PER"
+        },
+        "multiplier": "1000",
+        "unit": "PERSONS"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&indic_em=EMP_LFS&sex=T&age=Y20-64&unit=PC_POP&unit=THS_PER"
+  },
+  {
+    "dataset": "une_rt_a",
+    "id": "unemployment",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "LFS_labour_force_15_74",
+        "concept": "unemployment_rate_15_74",
+        "dimensions": {
+          "age": "Y15-74",
+          "freq": "A",
+          "geo": "PT",
+          "sex": "T",
+          "unit": "PC_ACT"
+        },
+        "multiplier": ".01",
+        "unit": "FRACTION"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&sex=T&age=Y15-74&unit=PC_ACT"
+  },
+  {
+    "dataset": "nasa_10_nf_tr",
+    "id": "household_disposable",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "ESA2010_accrual_households_and_NPISH",
+        "concept": "household_gross_disposable",
+        "dimensions": {
+          "direct": "RECV",
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "B6G",
+          "sector": "S14_S15",
+          "unit": "CP_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nasa_10_nf_tr?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=CP_MEUR&sector=S14_S15&direct=RECV&na_item=B6G"
+  },
+  {
+    "dataset": "ilc_di03",
+    "id": "equivalised_income",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "EU_SILC_survey_year_income_previous_year",
+        "concept": "median_equivalised_income",
+        "dimensions": {
+          "age": "TOTAL",
+          "freq": "A",
+          "geo": "PT",
+          "sex": "T",
+          "statinfo": "MED_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      },
+      {
+        "basis": "EU_SILC_survey_year_income_previous_year",
+        "concept": "mean_equivalised_income",
+        "dimensions": {
+          "age": "TOTAL",
+          "freq": "A",
+          "geo": "PT",
+          "sex": "T",
+          "statinfo": "MEAN_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di03?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=EUR&sex=T&age=TOTAL&statinfo=MED_EI&statinfo=MEAN_EI"
+  },
+  {
+    "dataset": "ilc_di04",
+    "id": "income_groups",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "EU_SILC_overlapping_groups_survey_year_income_previous_year",
+        "concept": "median_equivalised_A1",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "hhcomp": "A1",
+          "statinfo": "MED_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      },
+      {
+        "basis": "EU_SILC_overlapping_groups_survey_year_income_previous_year",
+        "concept": "median_equivalised_A1_DCH",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "hhcomp": "A1_DCH",
+          "statinfo": "MED_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      },
+      {
+        "basis": "EU_SILC_overlapping_groups_survey_year_income_previous_year",
+        "concept": "median_equivalised_A2_DCH2",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "hhcomp": "A2_DCH2",
+          "statinfo": "MED_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      },
+      {
+        "basis": "EU_SILC_overlapping_groups_survey_year_income_previous_year",
+        "concept": "median_equivalised_A1_GE65",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "hhcomp": "A1_GE65",
+          "statinfo": "MED_EI",
+          "unit": "EUR"
+        },
+        "multiplier": "1",
+        "unit": "EUR_EQUIVALISED"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di04?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=EUR&statinfo=MED_EI&hhcomp=A1&hhcomp=A1_DCH&hhcomp=A2_DCH2&hhcomp=A1_GE65"
+  },
+  {
+    "dataset": "nama_10_lp_ulc",
+    "id": "productivity",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "national_accounts_labour_productivity_not_TFP",
+        "concept": "labour_productivity_hour",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "RLPR_HW",
+          "unit": "I20"
+        },
+        "multiplier": "1",
+        "unit": "INDEX2020_100"
+      },
+      {
+        "basis": "national_accounts_labour_productivity_not_TFP",
+        "concept": "labour_productivity_person",
+        "dimensions": {
+          "freq": "A",
+          "geo": "PT",
+          "na_item": "RLPR_PER",
+          "unit": "I20"
+        },
+        "multiplier": "1",
+        "unit": "INDEX2020_100"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_lp_ulc?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=I20&na_item=RLPR_HW&na_item=RLPR_PER"
+  },
+  {
+    "dataset": "nama_10_nfa_st",
+    "id": "capital",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "net_fixed_assets_year_end_includes_dwellings",
+        "concept": "net_fixed_capital",
+        "dimensions": {
+          "asset10": "N11N",
+          "freq": "A",
+          "geo": "PT",
+          "nace_r2": "TOTAL",
+          "unit": "CLV20_MEUR"
+        },
+        "multiplier": "1000000",
+        "unit": "EUR2020_CHAIN"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_nfa_st?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&nace_r2=TOTAL&asset10=N11N&unit=CLV20_MEUR"
+  },
+  {
+    "dataset": "demo_pjan",
+    "id": "population",
+    "provider": "Eurostat",
+    "series": [
+      {
+        "basis": "population_on_January_1_not_annual_average",
+        "concept": "population_january1",
+        "dimensions": {
+          "age": "TOTAL",
+          "freq": "A",
+          "geo": "PT",
+          "sex": "T",
+          "unit": "NR"
+        },
+        "multiplier": "1",
+        "unit": "PERSONS"
+      }
+    ],
+    "time_dimension": "time",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&sex=T&age=TOTAL&unit=NR"
+  },
+  {
+    "dataset": "28/e2bc3b33d169f2d0885cffb9183fb48e",
+    "id": "bp_debt_interest",
+    "provider": "Banco de Portugal",
+    "series": [
+      {
+        "basis": "published_implicit_annual_rate_not_market_borrowing_offer",
+        "bp_series_id": 13169604,
+        "concept": "apparent_debt_interest_rate",
+        "dimensions": {},
+        "multiplier": ".01",
+        "unit": "FRACTION"
+      }
+    ],
+    "time_dimension": "reference_date",
+    "url": "https://bpstat.bportugal.pt/data/v1/domains/28/datasets/e2bc3b33d169f2d0885cffb9183fb48e/?lang=EN&series_ids=13169604"
+  },
+  {
+    "dataset": "FM",
+    "format": "ECB_CSV",
+    "id": "ecb_policy_rate",
+    "provider": "European Central Bank",
+    "series": [
+      {
+        "basis": "ECB_euro_area_daily_rate_full_calendar_year_mean_derived_not_sovereign_yield",
+        "concept": "ecb_main_refinancing_rate",
+        "dimensions": {},
+        "ecb_key": "FM.D.U2.EUR.4F.KR.MRR_FR.LEV",
+        "multiplier": ".01",
+        "unit": "FRACTION"
+      }
+    ],
+    "time_dimension": "TIME_PERIOD",
+    "url": "https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.MRR_FR.LEV?startPeriod=2009-01-01&endPeriod=2025-12-31&format=csvdata"
+  }
+]

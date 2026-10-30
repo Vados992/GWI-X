@@ -51,6 +51,39 @@ jobs:
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: validation-${{ matrix.os }}-${{ matrix.python }}
-          path: results-local/ci/receipt.json
+          path: |
+            results-local/ci/receipt.json
+            results-local/ci/official/verification.json
+          if-no-files-found: warn
+          retention-days: 30
+
+  official-live:
+    name: Live official Portugal APIs
+    needs: validate
+    runs-on: ubuntu-22.04
+    timeout-minutes: 12
+    steps:
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.11.9'
+      - name: Fetch real official APIs without synthetic fallback
+        run: python -S -m gwix.official fetch --out results-local/live-source
+      - name: Run actual core diagnostics on the fresh official snapshot
+        run: python -S -m gwix.official validate --snapshot results-local/live-source --out results-local/live-validation
+      - name: Independently check the fresh raw sources, CSV and database
+        run: python -S scripts/audit_official.py results-local/live-source results-local/live-validation --out results-local/live-validation/audit.json
+      - name: Save live evidence, including availability failures
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: live-official-portugal
+          path: |
+            results-local/live-source/
+            results-local/live-validation/
           if-no-files-found: warn
           retention-days: 30

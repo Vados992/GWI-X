@@ -1,2 +1,2 @@
-"""GWI-X v1.2: synthetic, annual, reproducible economic laboratory."""
-__version__ = "1.2.0"
+"""GWI-X: synthetic models and separate official Portugal diagnostics."""
+__version__ = "1.2.1"

@@ -1,0 +1,26 @@
+{
+  "data_status": "OFFICIAL_PUBLISHED_STATISTICS",
+  "files": {
+    "profile.json": "919b66236f464a6bca1f4d2cc26ba40cc759c4bb27abcf50a5e9ec475cca8f1b",
+    "queries.json": "e057dcd34420c0723ee8538cde43d6ff56b825e0d0443a34b5c5f7111e03836d",
+    "raw/bp_debt_interest.json": "ae5860ad79ea20688ae5b8fb54990ee7a31ca5b948a4d7075d72a9ac4e72e5f7",
+    "raw/capital.json": "3138af15903445fbd2898d087142ce97ceff1c4f4de3f062188dfd4b094c9e88",
+    "raw/ecb_policy_rate.csv": "a2476d18ac808fc46c50504ccb2c2e013ebc59bf70b43a4ea7d6e89b93a2f4c1",
+    "raw/employment.json": "cd4f9df59179460cbeb788ed25003f569df586d0e5f2c81f0f095c1d02241ebb",
+    "raw/equivalised_income.json": "f3df1eae63b05dd8d5df5f4531ac20685aec9813c767fb3726df1de3c639a086",
+    "raw/government_accounts.json": "006d8b35df7ec5bcdc348e627a075548c62390011ddb03a3786eb6cebd4d28b6",
+    "raw/government_debt.json": "559fa802a6e7b86ef2d9a2a3951f4688b361a9825c530f2b603431d82d80c8cd",
+    "raw/hicp_legacy_annual.json": "39bf86487e219005e9e2076815db1a0e78b74749db9b4a1f3879a0c689e784b1",
+    "raw/household_disposable.json": "30567ef74b5bd8dca137364e35cbb127166f00089c9bf262c3f561075265f606",
+    "raw/income_groups.json": "518451e10b6ab80333d8728765258522a6b122577f22233e8c4e5215f836b5bd",
+    "raw/national_accounts_current.json": "97dcdbd04dfa278eda9bc7ca553afd419f7a96e882b7ea1acb7fdc2c218f2d3e",
+    "raw/national_accounts_volume.json": "be6ae2bb2707ddfadcb51a8548a68c72f23ca6549b5e4b2517cb42246cc437c7",
+    "raw/population.json": "acbce187afa99a63c8ef01d23f8c3cb5da3864705e114acb3718cff63aefb8d2",
+    "raw/productivity.json": "47093cb3d8bfcd85c0fcc56e2335aa25b659240dff6fe199d5247739d367ab46",
+    "raw/unemployment.json": "d4fc0ae01a71b8f3d2633d8bd9e18abf56b316cb9dea14606da55d707e31a2e9",
+    "receipts.json": "f136b192c06da6b9eb5c7ecacb82eaa2afb84ed2315506d68c1e422bdd701275"
+  },
+  "schema_version": 1,
+  "snapshot_id": "00c781cdc50c86a2922572a3dea5ec279c005fa802af498089e8350e4754300e",
+  "status": "COMPLETE"
+}

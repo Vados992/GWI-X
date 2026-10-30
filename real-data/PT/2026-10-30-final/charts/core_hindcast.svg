@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1140" viewBox="0 0 1500 1140">
+<rect width="100%" height="100%" fill="#f7f9fb"/>
+<text x="50" y="55" font-family="sans-serif" font-size="32" fill="#152738">GWI-X | Portugal: actual outcomes and one-year core diagnostics</text>
+<text x="50" y="90" font-family="sans-serif" font-size="19" fill="#152738">2019-2024; inputs stop at the preceding year; other core coefficients remain illustrative</text>
+<text x="65" y="138" font-family="sans-serif" font-size="25" fill="#152738">Real GDP growth</text>
+<text x="65" y="165" font-family="sans-serif" font-size="18" fill="#152738">% year on year</text>
+<line x1="90" y1="460.0" x2="690" y2="460.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="467.0" font-family="sans-serif" font-size="17" fill="#152738">-10.0</text>
+<line x1="90" y1="387.5" x2="690" y2="387.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="394.5" font-family="sans-serif" font-size="17" fill="#152738">-5.3</text>
+<line x1="90" y1="315.0" x2="690" y2="315.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="322.0" font-family="sans-serif" font-size="17" fill="#152738">-0.6</text>
+<line x1="90" y1="242.5" x2="690" y2="242.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="249.5" font-family="sans-serif" font-size="17" fill="#152738">4.1</text>
+<line x1="90" y1="170.0" x2="690" y2="170.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="177.0" font-family="sans-serif" font-size="17" fill="#152738">8.8</text>
+<text x="68.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2019</text>
+<text x="308.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2021</text>
+<text x="668.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2024</text>
+<line x1="90" y1="305.61792390566103" x2="690" y2="305.61792390566103" stroke="#687788" stroke-width="2"/>
+<line x1="90.0" y1="263.3455365520175" x2="210.0" y2="431.93548387096774" stroke="#006d77" stroke-width="3"/>
+<line x1="210.0" y1="431.93548387096774" x2="330.0" y2="220.03601001098318" stroke="#006d77" stroke-width="3"/>
+<line x1="330.0" y1="220.03601001098318" x2="450.0" y2="198.06451612903226" stroke="#006d77" stroke-width="3"/>
+<line x1="450.0" y1="198.06451612903226" x2="570.0" y2="257.89060364403065" stroke="#006d77" stroke-width="3"/>
+<line x1="570.0" y1="257.89060364403065" x2="690.0" y2="264.0890710633457" stroke="#006d77" stroke-width="3"/>
+<circle cx="90.0" cy="263.3455365520175" r="3.5" fill="#006d77"/>
+<circle cx="210.0" cy="431.93548387096774" r="3.5" fill="#006d77"/>
+<circle cx="330.0" cy="220.03601001098318" r="3.5" fill="#006d77"/>
+<circle cx="450.0" cy="198.06451612903226" r="3.5" fill="#006d77"/>
+<circle cx="570.0" cy="257.89060364403065" r="3.5" fill="#006d77"/>
+<circle cx="690.0" cy="264.0890710633457" r="3.5" fill="#006d77"/>
+<line x1="90" y1="513" x2="120" y2="513" stroke="#006d77" stroke-width="4"/>
+<text x="130" y="520" font-family="sans-serif" font-size="18" fill="#152738">Official outcome</text>
+<line x1="90.0" y1="326.95791124689424" x2="210.0" y2="316.131603192311" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="210.0" y1="316.131603192311" x2="330.0" y2="266.1833292628273" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="330.0" y1="266.1833292628273" x2="450.0" y2="279.6548840798257" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="450.0" y1="279.6548840798257" x2="570.0" y2="357.28446726707807" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="570.0" y1="357.28446726707807" x2="690.0" y2="345.7843849065837" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<circle cx="90.0" cy="326.95791124689424" r="3.5" fill="#d1495b"/>
+<circle cx="210.0" cy="316.131603192311" r="3.5" fill="#d1495b"/>
+<circle cx="330.0" cy="266.1833292628273" r="3.5" fill="#d1495b"/>
+<circle cx="450.0" cy="279.6548840798257" r="3.5" fill="#d1495b"/>
+<circle cx="570.0" cy="357.28446726707807" r="3.5" fill="#d1495b"/>
+<circle cx="690.0" cy="345.7843849065837" r="3.5" fill="#d1495b"/>
+<line x1="390" y1="513" x2="420" y2="513" stroke="#d1495b" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="430" y="520" font-family="sans-serif" font-size="18" fill="#152738">GWI-X core</text>
+<line x1="90.0" y1="305.61792390566103" x2="210.0" y2="305.61792390566103" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="210.0" y1="305.61792390566103" x2="330.0" y2="305.61792390566103" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="330.0" y1="305.61792390566103" x2="450.0" y2="305.61792390566103" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="450.0" y1="305.61792390566103" x2="570.0" y2="305.61792390566103" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="570.0" y1="305.61792390566103" x2="690.0" y2="305.61792390566103" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<circle cx="90.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<circle cx="210.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<circle cx="330.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<circle cx="450.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<circle cx="570.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<circle cx="690.0" cy="305.61792390566103" r="3.5" fill="#815ac0"/>
+<line x1="90" y1="538" x2="120" y2="538" stroke="#815ac0" stroke-width="4" stroke-dasharray="3 5"/>
+<text x="130" y="545" font-family="sans-serif" font-size="18" fill="#152738">Naive baseline</text>
+<text x="800" y="138" font-family="sans-serif" font-size="25" fill="#152738">HICP inflation</text>
+<text x="800" y="165" font-family="sans-serif" font-size="18" fill="#152738">% annual average</text>
+<line x1="825" y1="460.0" x2="1425" y2="460.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="467.0" font-family="sans-serif" font-size="17" fill="#152738">-1.1</text>
+<line x1="825" y1="387.5" x2="1425" y2="387.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="394.5" font-family="sans-serif" font-size="17" fill="#152738">1.5</text>
+<line x1="825" y1="315.0" x2="1425" y2="315.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="322.0" font-family="sans-serif" font-size="17" fill="#152738">4.0</text>
+<line x1="825" y1="242.5" x2="1425" y2="242.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="249.5" font-family="sans-serif" font-size="17" fill="#152738">6.5</text>
+<line x1="825" y1="170.0" x2="1425" y2="170.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="177.0" font-family="sans-serif" font-size="17" fill="#152738">9.1</text>
+<text x="803.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2019</text>
+<text x="1043.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2021</text>
+<text x="1403.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2024</text>
+<line x1="825" y1="429.0833988985051" x2="1425" y2="429.0833988985051" stroke="#687788" stroke-width="2"/>
+<line x1="825.0" y1="420.5271439811172" x2="945.0" y2="431.93548387096774" stroke="#006d77" stroke-width="3"/>
+<line x1="945.0" y1="431.93548387096774" x2="1065.0" y2="403.4146341463415" stroke="#006d77" stroke-width="3"/>
+<line x1="1065.0" y1="403.4146341463415" x2="1185.0" y2="198.06451612903226" stroke="#006d77" stroke-width="3"/>
+<line x1="1185.0" y1="198.06451612903226" x2="1305.0" y2="277.92289535798585" stroke="#006d77" stroke-width="3"/>
+<line x1="1305.0" y1="277.92289535798585" x2="1425.0" y2="352.07710464201415" stroke="#006d77" stroke-width="3"/>
+<circle cx="825.0" cy="420.5271439811172" r="3.5" fill="#006d77"/>
+<circle cx="945.0" cy="431.93548387096774" r="3.5" fill="#006d77"/>
+<circle cx="1065.0" cy="403.4146341463415" r="3.5" fill="#006d77"/>
+<circle cx="1185.0" cy="198.06451612903226" r="3.5" fill="#006d77"/>
+<circle cx="1305.0" cy="277.92289535798585" r="3.5" fill="#006d77"/>
+<circle cx="1425.0" cy="352.07710464201415" r="3.5" fill="#006d77"/>
+<line x1="825" y1="513" x2="855" y2="513" stroke="#006d77" stroke-width="4"/>
+<text x="865" y="520" font-family="sans-serif" font-size="18" fill="#152738">Official outcome</text>
+<line x1="825.0" y1="390.4755776455813" x2="945.0" y2="403.47015270995007" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="945.0" y1="403.47015270995007" x2="1065.0" y2="399.2116760810373" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1065.0" y1="399.2116760810373" x2="1185.0" y2="385.0938872905307" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1185.0" y1="385.0938872905307" x2="1305.0" y2="279.14084060147155" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1305.0" y1="279.14084060147155" x2="1425.0" y2="324.4994046033692" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<circle cx="825.0" cy="390.4755776455813" r="3.5" fill="#d1495b"/>
+<circle cx="945.0" cy="403.47015270995007" r="3.5" fill="#d1495b"/>
+<circle cx="1065.0" cy="399.2116760810373" r="3.5" fill="#d1495b"/>
+<circle cx="1185.0" cy="385.0938872905307" r="3.5" fill="#d1495b"/>
+<circle cx="1305.0" cy="279.14084060147155" r="3.5" fill="#d1495b"/>
+<circle cx="1425.0" cy="324.4994046033692" r="3.5" fill="#d1495b"/>
+<line x1="1125" y1="513" x2="1155" y2="513" stroke="#d1495b" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="1165" y="520" font-family="sans-serif" font-size="18" fill="#152738">GWI-X core</text>
+<line x1="825.0" y1="394.8583792289536" x2="945.0" y2="420.5271439811172" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="945.0" y1="420.5271439811172" x2="1065.0" y2="431.93548387096774" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1065.0" y1="431.93548387096774" x2="1185.0" y2="403.4146341463415" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1185.0" y1="403.4146341463415" x2="1305.0" y2="198.06451612903226" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1305.0" y1="198.06451612903226" x2="1425.0" y2="277.92289535798585" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<circle cx="825.0" cy="394.8583792289536" r="3.5" fill="#815ac0"/>
+<circle cx="945.0" cy="420.5271439811172" r="3.5" fill="#815ac0"/>
+<circle cx="1065.0" cy="431.93548387096774" r="3.5" fill="#815ac0"/>
+<circle cx="1185.0" cy="403.4146341463415" r="3.5" fill="#815ac0"/>
+<circle cx="1305.0" cy="198.06451612903226" r="3.5" fill="#815ac0"/>
+<circle cx="1425.0" cy="277.92289535798585" r="3.5" fill="#815ac0"/>
+<line x1="825" y1="538" x2="855" y2="538" stroke="#815ac0" stroke-width="4" stroke-dasharray="3 5"/>
+<text x="865" y="545" font-family="sans-serif" font-size="18" fill="#152738">Naive baseline</text>
+<text x="65" y="578" font-family="sans-serif" font-size="25" fill="#152738">Unemployment, ages 15-74</text>
+<text x="65" y="605" font-family="sans-serif" font-size="18" fill="#152738">% of labour force</text>
+<line x1="90" y1="900.0" x2="690" y2="900.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="907.0" font-family="sans-serif" font-size="17" fill="#152738">5.8</text>
+<line x1="90" y1="827.5" x2="690" y2="827.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="834.5" font-family="sans-serif" font-size="17" fill="#152738">6.8</text>
+<line x1="90" y1="755.0" x2="690" y2="755.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="762.0" font-family="sans-serif" font-size="17" fill="#152738">7.7</text>
+<line x1="90" y1="682.5" x2="690" y2="682.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="689.5" font-family="sans-serif" font-size="17" fill="#152738">8.6</text>
+<line x1="90" y1="610.0" x2="690" y2="610.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="617.0" font-family="sans-serif" font-size="17" fill="#152738">9.6</text>
+<text x="68.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2019</text>
+<text x="308.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2021</text>
+<text x="668.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2024</text>
+<line x1="90.0" y1="840.9181141439205" x2="210.0" y2="802.1464019851117" stroke="#006d77" stroke-width="3"/>
+<line x1="210.0" y1="802.1464019851117" x2="330.0" y2="833.1637717121588" stroke="#006d77" stroke-width="3"/>
+<line x1="330.0" y1="833.1637717121588" x2="450.0" y2="871.9354838709678" stroke="#006d77" stroke-width="3"/>
+<line x1="450.0" y1="871.9354838709678" x2="570.0" y2="848.6724565756824" stroke="#006d77" stroke-width="3"/>
+<line x1="570.0" y1="848.6724565756824" x2="690.0" y2="848.6724565756824" stroke="#006d77" stroke-width="3"/>
+<circle cx="90.0" cy="840.9181141439205" r="3.5" fill="#006d77"/>
+<circle cx="210.0" cy="802.1464019851117" r="3.5" fill="#006d77"/>
+<circle cx="330.0" cy="833.1637717121588" r="3.5" fill="#006d77"/>
+<circle cx="450.0" cy="871.9354838709678" r="3.5" fill="#006d77"/>
+<circle cx="570.0" cy="848.6724565756824" r="3.5" fill="#006d77"/>
+<circle cx="690.0" cy="848.6724565756824" r="3.5" fill="#006d77"/>
+<line x1="90" y1="953" x2="120" y2="953" stroke="#006d77" stroke-width="4"/>
+<text x="130" y="960" font-family="sans-serif" font-size="18" fill="#152738">Official outcome</text>
+<line x1="90.0" y1="638.0645161290322" x2="210.0" y2="668.5390818858559" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="210.0" y1="668.5390818858559" x2="330.0" y2="643.143610421836" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="330.0" y1="643.143610421836" x2="450.0" y2="663.4599875930521" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="450.0" y1="663.4599875930521" x2="570.0" y2="688.8554590570719" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="570.0" y1="688.8554590570719" x2="690.0" y2="673.61817617866" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<circle cx="90.0" cy="638.0645161290322" r="3.5" fill="#d1495b"/>
+<circle cx="210.0" cy="668.5390818858559" r="3.5" fill="#d1495b"/>
+<circle cx="330.0" cy="643.143610421836" r="3.5" fill="#d1495b"/>
+<circle cx="450.0" cy="663.4599875930521" r="3.5" fill="#d1495b"/>
+<circle cx="570.0" cy="688.8554590570719" r="3.5" fill="#d1495b"/>
+<circle cx="690.0" cy="673.61817617866" r="3.5" fill="#d1495b"/>
+<line x1="390" y1="953" x2="420" y2="953" stroke="#d1495b" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="430" y="960" font-family="sans-serif" font-size="18" fill="#152738">GWI-X core</text>
+<line x1="90.0" y1="794.3920595533499" x2="210.0" y2="840.9181141439205" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="210.0" y1="840.9181141439205" x2="330.0" y2="802.1464019851117" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="330.0" y1="802.1464019851117" x2="450.0" y2="833.1637717121588" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="450.0" y1="833.1637717121588" x2="570.0" y2="871.9354838709678" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="570.0" y1="871.9354838709678" x2="690.0" y2="848.6724565756824" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<circle cx="90.0" cy="794.3920595533499" r="3.5" fill="#815ac0"/>
+<circle cx="210.0" cy="840.9181141439205" r="3.5" fill="#815ac0"/>
+<circle cx="330.0" cy="802.1464019851117" r="3.5" fill="#815ac0"/>
+<circle cx="450.0" cy="833.1637717121588" r="3.5" fill="#815ac0"/>
+<circle cx="570.0" cy="871.9354838709678" r="3.5" fill="#815ac0"/>
+<circle cx="690.0" cy="848.6724565756824" r="3.5" fill="#815ac0"/>
+<line x1="90" y1="978" x2="120" y2="978" stroke="#815ac0" stroke-width="4" stroke-dasharray="3 5"/>
+<text x="130" y="985" font-family="sans-serif" font-size="18" fill="#152738">Naive baseline</text>
+<text x="800" y="578" font-family="sans-serif" font-size="25" fill="#152738">Private investment proxy</text>
+<text x="800" y="605" font-family="sans-serif" font-size="18" fill="#152738">billion 2020 chain-volume EUR</text>
+<line x1="825" y1="900.0" x2="1425" y2="900.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="907.0" font-family="sans-serif" font-size="17" fill="#152738">24.6</text>
+<line x1="825" y1="827.5" x2="1425" y2="827.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="834.5" font-family="sans-serif" font-size="17" fill="#152738">29.4</text>
+<line x1="825" y1="755.0" x2="1425" y2="755.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="762.0" font-family="sans-serif" font-size="17" fill="#152738">34.2</text>
+<line x1="825" y1="682.5" x2="1425" y2="682.5" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="689.5" font-family="sans-serif" font-size="17" fill="#152738">39.1</text>
+<line x1="825" y1="610.0" x2="1425" y2="610.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="617.0" font-family="sans-serif" font-size="17" fill="#152738">43.9</text>
+<text x="803.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2019</text>
+<text x="1043.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2021</text>
+<text x="1403.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2024</text>
+<line x1="825.0" y1="727.055069804384" x2="945.0" y2="750.2148729511067" stroke="#006d77" stroke-width="3"/>
+<line x1="945.0" y1="750.2148729511067" x2="1065.0" y2="716.8295578753256" stroke="#006d77" stroke-width="3"/>
+<line x1="1065.0" y1="716.8295578753256" x2="1185.0" y2="694.5013286727045" stroke="#006d77" stroke-width="3"/>
+<line x1="1185.0" y1="694.5013286727045" x2="1305.0" y2="664.1342723243315" stroke="#006d77" stroke-width="3"/>
+<line x1="1305.0" y1="664.1342723243315" x2="1425.0" y2="638.0645161290322" stroke="#006d77" stroke-width="3"/>
+<circle cx="825.0" cy="727.055069804384" r="3.5" fill="#006d77"/>
+<circle cx="945.0" cy="750.2148729511067" r="3.5" fill="#006d77"/>
+<circle cx="1065.0" cy="716.8295578753256" r="3.5" fill="#006d77"/>
+<circle cx="1185.0" cy="694.5013286727045" r="3.5" fill="#006d77"/>
+<circle cx="1305.0" cy="664.1342723243315" r="3.5" fill="#006d77"/>
+<circle cx="1425.0" cy="638.0645161290322" r="3.5" fill="#006d77"/>
+<line x1="825" y1="953" x2="855" y2="953" stroke="#006d77" stroke-width="4"/>
+<text x="865" y="960" font-family="sans-serif" font-size="18" fill="#152738">Official outcome</text>
+<line x1="825.0" y1="801.6202938818091" x2="945.0" y2="776.0805129986353" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="945.0" y1="776.0805129986353" x2="1065.0" y2="811.4156540266114" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1065.0" y1="811.4156540266114" x2="1185.0" y2="799.5901619095839" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1185.0" y1="799.5901619095839" x2="1305.0" y2="871.9354838709677" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<line x1="1305.0" y1="871.9354838709677" x2="1425.0" y2="817.4233324953029" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 5"/>
+<circle cx="825.0" cy="801.6202938818091" r="3.5" fill="#d1495b"/>
+<circle cx="945.0" cy="776.0805129986353" r="3.5" fill="#d1495b"/>
+<circle cx="1065.0" cy="811.4156540266114" r="3.5" fill="#d1495b"/>
+<circle cx="1185.0" cy="799.5901619095839" r="3.5" fill="#d1495b"/>
+<circle cx="1305.0" cy="871.9354838709677" r="3.5" fill="#d1495b"/>
+<circle cx="1425.0" cy="817.4233324953029" r="3.5" fill="#d1495b"/>
+<line x1="1125" y1="953" x2="1155" y2="953" stroke="#d1495b" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="1165" y="960" font-family="sans-serif" font-size="18" fill="#152738">GWI-X core</text>
+<line x1="825.0" y1="757.1856555422411" x2="945.0" y2="727.055069804384" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="945.0" y1="727.055069804384" x2="1065.0" y2="750.2148729511067" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1065.0" y1="750.2148729511067" x2="1185.0" y2="716.8295578753256" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1185.0" y1="716.8295578753256" x2="1305.0" y2="694.5013286727045" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<line x1="1305.0" y1="694.5013286727045" x2="1425.0" y2="664.1342723243315" stroke="#815ac0" stroke-width="3" stroke-dasharray="3 5"/>
+<circle cx="825.0" cy="757.1856555422411" r="3.5" fill="#815ac0"/>
+<circle cx="945.0" cy="727.055069804384" r="3.5" fill="#815ac0"/>
+<circle cx="1065.0" cy="750.2148729511067" r="3.5" fill="#815ac0"/>
+<circle cx="1185.0" cy="716.8295578753256" r="3.5" fill="#815ac0"/>
+<circle cx="1305.0" cy="694.5013286727045" r="3.5" fill="#815ac0"/>
+<circle cx="1425.0" cy="664.1342723243315" r="3.5" fill="#815ac0"/>
+<line x1="825" y1="978" x2="855" y2="978" stroke="#815ac0" stroke-width="4" stroke-dasharray="3 5"/>
+<text x="865" y="985" font-family="sans-serif" font-size="18" fill="#152738">Naive baseline</text>
+<text x="50" y="1110" font-family="sans-serif" font-size="19" fill="#152738">Official Portugal data | Latest-vintage diagnostics | No causal reform effect established | 30 Oct 2026</text>
+</svg>

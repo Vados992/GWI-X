@@ -23,8 +23,12 @@ def check(archive,destination):
     for name,digest in manifest["files"].items():
         if hashlib.sha256((root/name).read_bytes()).hexdigest()!=digest: raise AssertionError("Hash mismatch: "+name)
     test=subprocess.run([sys.executable,"-S","-m","unittest","discover","-s","tests","-v"],cwd=root,capture_output=True,text=True,encoding="utf-8")
-    (destination/"tests.txt").write_text(test.stdout+test.stderr,encoding="utf-8")
+    (destination/"tests.txt").write_text(test.stdout+test.stderr,encoding="utf-8",newline="\n")
     if test.returncode: raise AssertionError(test.stderr)
+    official_verified=(root/"scripts/verify_official.py").is_file()
+    if official_verified:
+        official=subprocess.run([sys.executable,"-S","scripts/verify_official.py","--out",str(destination/"official-check")],cwd=root,capture_output=True,text=True)
+        if official.returncode: raise AssertionError(official.stdout+official.stderr)
     # Real CLI call from an extracted project, no packages or preinstalled code.
     cfg=json.loads((root/"configs/synthetic.json").read_text(encoding="utf-8"))
     cfg["households"]=120
@@ -34,8 +38,10 @@ def check(archive,destination):
         p=subprocess.run([sys.executable,"-S","-m","gwix","run","--config",str(small),"--scenario",name,"--out",str(output)],cwd=root,capture_output=True,text=True)
         if p.returncode!=expected: raise AssertionError((name,p.returncode,p.stdout,p.stderr))
     match=re.search(r"Ran (\d+) tests",test.stderr+test.stdout)
-    receipt=dict(status="PASS",archive_entries=len(names),manifest_files_checked=len(manifest["files"]),tests=f"{match.group(1) if match else 'all'} passed with python -S from clean extraction",cli_exit_codes=dict(reform=0,zero_funding=2),pdf_byte_reproduction="Not checked by this script; see the authoring verification receipt",no_network_or_install_for_model=True)
-    (destination/"package_check.json").write_text(json.dumps(receipt,indent=2)+"\n",encoding="utf-8")
+    codes=dict(reform=0,zero_funding=2)
+    if official_verified: codes["unfunded_national_policy"]=2
+    receipt=dict(status="PASS",archive_entries=len(names),manifest_files_checked=len(manifest["files"]),tests=f"{match.group(1) if match else 'all'} passed with python -S from clean extraction",cli_exit_codes=codes,official_snapshot_replay="PASS; independent CSV/SQLite/raw audit; full policy run BLOCKED" if official_verified else "Not present in legacy synthetic package",pdf_byte_reproduction="Not checked by this script; see the authoring verification receipt",no_network_or_install_for_model=True)
+    (destination/"package_check.json").write_text(json.dumps(receipt,indent=2)+"\n",encoding="utf-8",newline="\n")
     print(json.dumps(receipt,indent=2))
 
 

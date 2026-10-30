@@ -1,0 +1,16 @@
+{
+  "first_attempt_status": "PARTIAL_SOURCE_FAILURE",
+  "first_successful_queries": 13,
+  "first_failures": [
+    {
+      "query_id": "productivity",
+      "requested_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_lp_ulc?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=I20&na_item=RLPR_HW&na_item=RLPR_PER",
+      "retrieved_at": "2026-10-30T09:38:53.383347+00:00",
+      "status": "UNAVAILABLE",
+      "error": "CalledProcessError: Command '['curl.exe', '--silent', '--show-error', '--location', '--max-redirs', '3', '--proto', '=https', '--proto-redir', '=https', '--max-time', '40', '--max-filesize', '10485760', '--write-out', '\\n__GWIX_RESPONSE__%{http_code}\\t%{url_effective}\\t%{content_type}', 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_lp_ulc?lang=EN&freq=A&geo=PT&sinceTimePeriod=2009&untilTimePeriod=2025&unit=I20&na_item=RLPR_HW&na_item=RLPR_PER']' returned non-zero exit status 56."
+    }
+  ],
+  "final_status": "COMPLETE",
+  "final_successful_queries": 15,
+  "failed_series_replaced_with_synthetic": false
+}

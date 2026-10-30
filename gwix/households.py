@@ -121,11 +121,17 @@ def emtr(hh,c,price=1.0,wage_index=1.0,admitted=False):
     return max((x for x in emtr_adults(hh,c,price,wage_index,admitted) if x is not None),default=None)
 
 
-def transition(hs,c,year,gap,incentive,labor_shock):
+def transition_rates(c,gap,incentive,labor_shock):
+    """Annual separation/finding probabilities, shared with aggregate diagnostics."""
     m=c["macro"]
     clamp=lambda v:max(0,min(1,v))
     sep=clamp(m["separation_rate"]-0.15*gap+labor_shock)
     find=clamp(m["job_finding_rate"]+m["labor_gap_sensitivity"]*gap+m["incentive_sensitivity"]*(incentive-0.65))
+    return sep,find
+
+
+def transition(hs,c,year,gap,incentive,labor_shock):
+    sep,find=transition_rates(c,gap,incentive,labor_shock)
     result=[]
     for h in hs:
         people=[]

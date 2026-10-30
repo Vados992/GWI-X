@@ -1,0 +1,21 @@
+{
+  "audit": {
+    "csv_database_rows_checked": 697,
+    "directly_reconciled_raw_official_values": 68,
+    "independently_recomputed_budget_years": 17,
+    "max_budget_identity_residual_eur": "100000.0",
+    "missing_values": 19,
+    "scope": "Integrity and accounting checks; no empirical validation of causal reform effects",
+    "source_snapshot_id": "00c781cdc50c86a2922572a3dea5ec279c005fa802af498089e8350e4754300e",
+    "status": "PASS_WITH_POLICY_RUN_BLOCKED"
+  },
+  "blocked_policy_exit_code": 2,
+  "saved_csv_replay": {
+    "absolute_tolerance": 1e-08,
+    "matched_files": 8,
+    "relative_tolerance": 1e-12,
+    "residual_bound": 0.0001,
+    "status": "NUMERIC_MATCH"
+  },
+  "status": "OFFICIAL_PIPELINE_PASS_POLICY_RUN_BLOCKED"
+}

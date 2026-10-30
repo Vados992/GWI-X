@@ -1,0 +1,10 @@
+{
+  "status": "PASS_WITH_POLICY_RUN_BLOCKED",
+  "csv_database_rows_checked": 697,
+  "missing_values": 19,
+  "directly_reconciled_raw_official_values": 68,
+  "independently_recomputed_budget_years": 17,
+  "max_budget_identity_residual_eur": "100000.0",
+  "source_snapshot_id": "00c781cdc50c86a2922572a3dea5ec279c005fa802af498089e8350e4754300e",
+  "scope": "Integrity and accounting checks; no empirical validation of causal reform effects"
+}
