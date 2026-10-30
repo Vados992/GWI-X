@@ -1,5 +1,6 @@
 """Ring-fenced cash allocation and consolidated public stock/flow identities."""
 from dataclasses import dataclass
+import math
 from .households import calculate, emtr
 
 
@@ -32,13 +33,13 @@ def allocate(hs,c,t,price,wage_index,admitted,reserve,gates):
     funding=f["funding_real"]*price*s["funding_multipliers"][t]
     rows=[calculate(h,c,price,wage_index,h.id in admitted) for h in hs]
     def cost(rs):
-        return sum((r["topup"]+r["clearing"])*h.weight for h,r in zip(hs,rs))*(1+f["administration_share"])
+        return math.fsum((r["topup"]+r["clearing"])*h.weight for h,r in zip(hs,rs))*(1+f["administration_share"])
     protected=cost(rows)
     if protected > funding+reserve+1e-5:
         raise FundingShortfall("protected_programme_obligations",protected,funding+reserve)
     # Annual real floors are explicit scenario assumptions, never a forecast saving.
     floor=f["funding_real"]*min(s["funding_multipliers"][t:])
-    committed=sum(max_cost_real(h,c) for h in hs if h.id in admitted)
+    committed=math.fsum(max_cost_real(h,c) for h in hs if h.id in admitted)
     new_weight=0.0
     annual_admission_limit=c["population_households"]*f["initial_admission_share"]
     if all(gates.values()) and protected <= funding:
@@ -54,8 +55,8 @@ def allocate(hs,c,t,price,wage_index,admitted,reserve,gates):
     total=cost(rows)
     if total>funding+reserve+1e-5:
         raise FundingShortfall("programme_obligations",total,funding+reserve)
-    income=sum(h.weight*r["topup"] for h,r in zip(hs,rows))
-    clearing=sum(h.weight*r["clearing"] for h,r in zip(hs,rows))
+    income=math.fsum(h.weight*r["topup"] for h,r in zip(hs,rows))
+    clearing=math.fsum(h.weight*r["clearing"] for h,r in zip(hs,rows))
     admin=(income+clearing)*f["administration_share"]
     withdrawal=max(0,total-funding)
     remaining=max(0,funding-total)

@@ -21,6 +21,6 @@
     "scope": "All page renders reviewed as a contact sheet; equations, result tables and architecture additionally inspected at page resolution",
     "status": "PASS",
     "note": "Renderer printed missing-display-font notices for unused system font aliases; embedded Cyrillic text and final pages rendered correctly.",
-    "publication_revision": "Verification count updated to 44; affected page 8 rendered and visually reviewed; other content and layout unchanged."
+    "publication_revision": "Verification count updated to 46 and stable summation described; affected pages 8-10 rendered and reviewed; other layout unchanged."
   }
 }

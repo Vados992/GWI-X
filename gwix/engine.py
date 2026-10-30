@@ -44,7 +44,7 @@ def run(c,reference=None):
             p=macro.price
             gates={"debt":public.debt/(macro.gdp*p)<=f["debt_gate_ratio"],"inflation":True,"employment":True,"real_income":True}
             floor=f["funding_real"]*min(c["scenario"]["funding_multipliers"][t:])
-            gates["multiyear"]=floor+1e-5>=sum(max_cost_real(h,c) for h in hs if h.id in admitted)
+            gates["multiyear"]=floor+1e-5>=math.fsum(max_cost_real(h,c) for h in hs if h.id in admitted)
             if t>0 and reference is not None:
                 if len(reference.annual)<t:
                     gates.update(inflation=False,employment=False,real_income=False)
@@ -60,7 +60,7 @@ def run(c,reference=None):
             total=summarize(hs,rows)
             rates=[emtr(h,c,p,macro.wage_index,h.id in next_admitted) for h in hs]
             labor_weights=[h.weight for h,r in zip(hs,rates) if r is not None]
-            incentive=sum(h.weight*(1-r) for h,r in zip(hs,rates) if r is not None)/sum(labor_weights) if labor_weights else 0.0
+            incentive=math.fsum(h.weight*(1-r) for h,r in zip(hs,rates) if r is not None)/math.fsum(labor_weights) if labor_weights else 0.0
             C=total["disposable"]*c["household"]["consumption_propensity"]
             gov_real=f["government_consumption_real"]*macro.productivity
             legacy=f["subsidy_pool_real"]*p-program["funding"]
@@ -73,7 +73,7 @@ def run(c,reference=None):
             # Clearing is an internal transfer; it is not expenditure twice.
             expense=gov_real*p+legacy+total["benefits"]+interest+program["income_fund"]+program["investment"]+program["admin"]
             next_public,fv=settle_public(public,c,p,mv["gdp_nominal"],revenue,expense,program["reserve_close"])
-            annual=dict(scenario=result.name,year=year,data_status="SYNTHETIC",**mv,**program,**fv,revenue=revenue,expenditure=expense,interest=interest,interest_rate=interest_rate,vat=vat,other_tax=other_tax,legacy_subsidy=legacy,government_consumption_nominal=gov_real*p,debt_open=public.debt,debt_close=next_public.debt,debt_gdp=next_public.debt/mv["gdp_nominal"],reserve_open=public.reserve,treasury_open=public.treasury,treasury_close=next_public.treasury,admitted_households=sum(h.weight for h in hs if h.id in next_admitted),gate_reasons="|".join(k for k,v in gates.items() if not v) or "OPEN",emtr_max=max((r for r in rates if r is not None),default=0),emtr_weighted=sum(h.weight*r for h,r in zip(hs,rates) if r is not None)/sum(labor_weights) if labor_weights else None,emtr_above_gate_households=sum(h.weight for h,r in zip(hs,rates) if r is not None and r>c["household"]["emtr_gate"]),**{"hh_"+k:v for k,v in total.items()})
+            annual=dict(scenario=result.name,year=year,data_status="SYNTHETIC",**mv,**program,**fv,revenue=revenue,expenditure=expense,interest=interest,interest_rate=interest_rate,vat=vat,other_tax=other_tax,legacy_subsidy=legacy,government_consumption_nominal=gov_real*p,debt_open=public.debt,debt_close=next_public.debt,debt_gdp=next_public.debt/mv["gdp_nominal"],reserve_open=public.reserve,treasury_open=public.treasury,treasury_close=next_public.treasury,admitted_households=math.fsum(h.weight for h in hs if h.id in next_admitted),gate_reasons="|".join(k for k,v in gates.items() if not v) or "OPEN",emtr_max=max((r for r in rates if r is not None),default=0),emtr_weighted=math.fsum(h.weight*r for h,r in zip(hs,rates) if r is not None)/math.fsum(labor_weights) if labor_weights else None,emtr_above_gate_households=math.fsum(h.weight for h,r in zip(hs,rates) if r is not None and r>c["household"]["emtr_gate"]),**{"hh_"+k:v for k,v in total.items()})
             annual["employment_rate"]=total["employment_rate"]
             annual["labor_productivity_real_per_worker"]=mv["gdp_real"]/total["employment"] if total["employment"] else None
             annual.update({"gate_"+k:int(v) for k,v in gates.items()})
@@ -87,8 +87,8 @@ def run(c,reference=None):
             grouped=[]
             for group in sorted({h.group for h in hs}):
                 rs=[r for r in micro if r["group"]==group]
-                weight=sum(r["weight"] for r in rs)
-                grouped.append(dict(scenario=result.name,year=year,data_status="SYNTHETIC",group=group,households=weight,real_disposable_mean=sum(r["real_disposable"]*r["weight"] for r in rs)/weight,nominal_disposable_mean=sum(r["disposable"]*r["weight"] for r in rs)/weight,employment=sum(r["employed"]*r["weight"] for r in rs),topup=sum(r["topup"]*r["weight"] for r in rs)))
+                weight=math.fsum(r["weight"] for r in rs)
+                grouped.append(dict(scenario=result.name,year=year,data_status="SYNTHETIC",group=group,households=weight,real_disposable_mean=math.fsum(r["real_disposable"]*r["weight"] for r in rs)/weight,nominal_disposable_mean=math.fsum(r["disposable"]*r["weight"] for r in rs)/weight,employment=math.fsum(r["employed"]*r["weight"] for r in rs),topup=math.fsum(r["topup"]*r["weight"] for r in rs)))
             # Commit an entire year only after every constraint and financing check.
             result.annual.append(annual); result.households.extend(micro); result.groups.extend(grouped)
             public,macro,admitted=next_public,next_macro,next_admitted

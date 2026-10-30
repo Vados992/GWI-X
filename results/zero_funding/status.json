@@ -5,9 +5,9 @@
   "failure": {
     "year": 2034,
     "kind": "protected_programme_obligations",
-    "required": 109472768.15896912,
-    "available": 49997411.14056203,
-    "gap": 59475357.01840709,
+    "required": 109472768.15896945,
+    "available": 49997411.14056149,
+    "gap": 59475357.018407956,
     "explanation": "No transactions committed for failed year; no automatic cancellation or monetary financing."
   }
 }

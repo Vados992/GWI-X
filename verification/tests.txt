@@ -1,7 +1,9 @@
 test_archive_root_does_not_depend_on_clone_folder (test_delivery.DeliveryTests.test_archive_root_does_not_depend_on_clone_folder) ... ok
 test_json_uses_canonical_lf (test_delivery.DeliveryTests.test_json_uses_canonical_lf) ... ok
 test_manifest_excludes_local_state_and_release_recursion (test_delivery.DeliveryTests.test_manifest_excludes_local_state_and_release_recursion) ... ok
+test_national_aggregation_keeps_small_money_terms (test_delivery.DeliveryTests.test_national_aggregation_keeps_small_money_terms) ... ok
 test_numeric_comparison_tolerates_only_tiny_float_roundoff (test_delivery.DeliveryTests.test_numeric_comparison_tolerates_only_tiny_float_roundoff) ... ok
+test_residual_comparison_preserves_the_invariant_limit (test_delivery.DeliveryTests.test_residual_comparison_preserves_the_invariant_limit) ... ok
 test_config_bad_units_rates_schedule (test_models.ConfigAndMacroTests.test_config_bad_units_rates_schedule) ... ok
 test_config_rejects_unknown_national_claim (test_models.ConfigAndMacroTests.test_config_rejects_unknown_national_claim) ... ok
 test_invalid_scenario (test_models.ConfigAndMacroTests.test_invalid_scenario) ... ok
@@ -44,6 +46,6 @@ test_tax_progressive_bands (test_models.MicroTests.test_tax_progressive_bands) .
 test_unverified_new_claim_gets_no_gwi (test_models.MicroTests.test_unverified_new_claim_gets_no_gwi) ... ok
 
 ----------------------------------------------------------------------
-Ran 44 tests in 1.865s
+Ran 46 tests in 1.876s
 
 OK

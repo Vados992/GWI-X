@@ -8,6 +8,7 @@ import unittest
 import zipfile
 
 from gwix.export import json_write, manifest
+from gwix.households import Person, Household, summarize
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
@@ -15,6 +16,26 @@ from check_reproduction import compare
 
 
 class DeliveryTests(unittest.TestCase):
+    def test_national_aggregation_keeps_small_money_terms(self):
+        # Independent exact decimal sum: builtin float sum in Python 3.11
+        # loses two units here, while the weighted national total must keep them.
+        from decimal import Decimal
+        hs=[Household(str(i),"single",(Person(str(i),1,1,True),),0,1) for i in range(3)]
+        keys=("gross","income_tax","employee_sc","employer_sc","business_sc","clearing","topup","benefits","pension","disability","child","assistance","disposable","real_disposable","employer_cost")
+        rows=[{k:0.0 for k in keys} for _ in hs]
+        for row,value in zip(rows,(1e16,1.0,1.0)): row["gross"]=value
+        exact=Decimal("10000000000000000")+Decimal(1)+Decimal(1)
+        self.assertEqual(summarize(hs,rows)["gross"],float(exact))
+
+    def test_residual_comparison_preserves_the_invariant_limit(self):
+        with tempfile.TemporaryDirectory() as d:
+            a,b=Path(d)/"a",Path(d)/"b"; a.mkdir(); b.mkdir()
+            (a/"annual.csv").write_text("year,cash_residual\n2027,0\n")
+            (b/"annual.csv").write_text("year,cash_residual\n2027,0.00001\n")
+            self.assertEqual(compare(a,b,False)["status"],"NUMERIC_MATCH")
+            (b/"annual.csv").write_text("year,cash_residual\n2027,0.001\n")
+            with self.assertRaises(AssertionError): compare(a,b,False)
+
     def test_json_uses_canonical_lf(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/"config.json"; json_write(p,{"label":"SYNTHETIC","values":[1,2]})

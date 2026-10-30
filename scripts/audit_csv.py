@@ -4,6 +4,7 @@ import csv
 from collections import defaultdict
 import hashlib
 import json
+import math
 from pathlib import Path
 
 
@@ -14,7 +15,7 @@ def audit(root):
         err=abs(a-b); maximum_error=max(maximum_error,err); checked+=1
         if err>1e-4: raise AssertionError((a,b,err))
     for path in sorted(root.rglob("annual.csv")):
-        totals=defaultdict(lambda:defaultdict(float)); ids=set()
+        totals=defaultdict(lambda:defaultdict(list)); ids=set()
         with path.with_name("households.csv").open(encoding="utf-8",newline="") as f:
             for row in csv.DictReader(f):
                 household_rows+=1
@@ -25,16 +26,16 @@ def audit(root):
                 weight=float(row["weight"])
                 close(float(row["disposable"]),float(row["gross"])-float(row["income_tax"])-float(row["employee_sc"])-float(row["business_sc"])+float(row["benefits"])+float(row["topup"]))
                 for k in ("gross","disposable","real_disposable","benefits","topup","clearing","employee_sc"):
-                    totals[row["year"]][k]+=float(row[k])*weight
+                    totals[row["year"]][k].append(float(row[k])*weight)
         previous=None
         with path.open(encoding="utf-8",newline="") as f:
             for row in csv.DictReader(f):
                 v=lambda k:float(row[k])
                 close(v("debt_close")-v("debt_open")-v("reserve_close")+v("reserve_open")-v("treasury_close")+v("treasury_open"),v("expenditure")-v("revenue"))
                 close(v("funding")+v("withdrawal"),v("income_fund")+v("social_clearing")+v("investment")+v("admin")+v("deposit")+v("return_to_treasury"))
-                close(v("gdp_real"),sum(v(k) for k in ("consumption_real","private_investment_real","public_investment_real","government_consumption_real","other_demand_real")))
-                close(v("expenditure"),sum(v(k) for k in ("government_consumption_nominal","legacy_subsidy","hh_benefits","interest","income_fund","investment","admin")))
-                for k,total in totals[row["year"]].items(): close(total,v("hh_"+k))
+                close(v("gdp_real"),math.fsum(v(k) for k in ("consumption_real","private_investment_real","public_investment_real","government_consumption_real","other_demand_real")))
+                close(v("expenditure"),math.fsum(v(k) for k in ("government_consumption_nominal","legacy_subsidy","hh_benefits","interest","income_fund","investment","admin")))
+                for k,terms in totals[row["year"]].items(): close(math.fsum(terms),v("hh_"+k))
                 if previous:
                     close(v("cpi")/float(previous["cpi"])-1,v("inflation"))
                     close(v("debt_open"),float(previous["debt_close"]))

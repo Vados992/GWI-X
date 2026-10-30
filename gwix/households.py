@@ -69,7 +69,7 @@ def check_contract(old, new, documented_reason=False):
 
 def tax(gross,p,h):
     bounds=[0.0]+[b*p for b in h["tax_thresholds_real"]]+[float("inf")]
-    return sum(max(0.0,min(gross,bounds[i+1])-bounds[i])*rate for i,rate in enumerate(h["tax_rates"]))
+    return math.fsum(max(0.0,min(gross,bounds[i+1])-bounds[i])*rate for i,rate in enumerate(h["tax_rates"]))
 
 
 def calculate(hh, c, price=1.0, wage_index=1.0, admitted=False, earnings_override=None):
@@ -85,22 +85,22 @@ def calculate(hh, c, price=1.0, wage_index=1.0, admitted=False, earnings_overrid
         relief=min(g,h["relief_earnings_cap_real"]*price)*h["contribution_relief"] if eligible else 0.0
         top=min(1,g/(h["topup_phasein_real"]*price))*max(0,h["topup_max_real"]*price-h["topup_taper"]*max(0,g-h["topup_taper_start_real"]*price)) if eligible else 0.0
         gross.append(g); taxes.append(tax(g,price,h)); contributions.append(g*h["employee_contribution"]-relief); reliefs.append(relief); tops.append(top)
-    g=sum(gross); it=sum(taxes); sc=sum(contributions)
+    g=math.fsum(gross); it=math.fsum(taxes); sc=math.fsum(contributions)
     pension=len(hh.people)*h["pension_real"]*price if hh.group=="retired" else 0.0
     disability=h["disability_real"]*price if hh.group=="disability" else 0.0
     child=hh.children*h["child_benefit_real"]*price
     # Coordinated means test uses pre-GWI income; GWI cannot cancel existing benefits.
     assess=max(0,g-it-g*h["employee_contribution"])+pension+disability
     assistance=max(0,h["assistance_real"]*price-h["assistance_taper"]*assess)
-    top=min(sum(tops),h["household_topup_cap_real"]*price)
+    top=min(math.fsum(tops),h["household_topup_cap_real"]*price)
     benefit=pension+disability+child+assistance
     net=g-it-sc+benefit+top
-    employer=sum(v*(1+h["employer_contribution"]) for p,v in zip(hh.people,gross) if p.kind=="employee")
-    employer_sc=sum(v*h["employer_contribution"] for p,v in zip(hh.people,gross) if p.kind=="employee")
+    employer=math.fsum(v*(1+h["employer_contribution"]) for p,v in zip(hh.people,gross) if p.kind=="employee")
+    employer_sc=math.fsum(v*h["employer_contribution"] for p,v in zip(hh.people,gross) if p.kind=="employee")
     # Self-employed pay an analogous business contribution, separate from employer costs.
-    business_sc=sum(v*h["employer_contribution"] for p,v in zip(hh.people,gross) if p.kind=="self_employed")
+    business_sc=math.fsum(v*h["employer_contribution"] for p,v in zip(hh.people,gross) if p.kind=="self_employed")
     net-=business_sc
-    return dict(gross=g,income_tax=it,employee_sc=sc,employer_sc=employer_sc,business_sc=business_sc,clearing=sum(reliefs),topup=top,benefits=benefit,pension=pension,disability=disability,child=child,assistance=assistance,disposable=net,real_disposable=net/price,employer_cost=employer,earnings=gross)
+    return dict(gross=g,income_tax=it,employee_sc=sc,employer_sc=employer_sc,business_sc=business_sc,clearing=math.fsum(reliefs),topup=top,benefits=benefit,pension=pension,disability=disability,child=child,assistance=assistance,disposable=net,real_disposable=net/price,employer_cost=employer,earnings=gross)
 
 
 def emtr_adults(hh,c,price=1.0,wage_index=1.0,admitted=False):
@@ -141,8 +141,8 @@ def transition(hs,c,year,gap,incentive,labor_shock):
 
 def summarize(hs,rows):
     keys=("gross","income_tax","employee_sc","employer_sc","business_sc","clearing","topup","benefits","pension","disability","child","assistance","disposable","real_disposable","employer_cost")
-    result={k:sum(h.weight*r[k] for h,r in zip(hs,rows)) for k in keys}
-    result["employment"]=sum(h.weight*sum(p.employed for p in h.people) for h in hs)
-    result["labor_force"]=sum(h.weight*sum(p.labor_eligible for p in h.people) for h in hs)
+    result={k:math.fsum(h.weight*r[k] for h,r in zip(hs,rows)) for k in keys}
+    result["employment"]=math.fsum(h.weight*sum(p.employed for p in h.people) for h in hs)
+    result["labor_force"]=math.fsum(h.weight*sum(p.labor_eligible for p in h.people) for h in hs)
     result["employment_rate"]=result["employment"]/result["labor_force"]
     return result

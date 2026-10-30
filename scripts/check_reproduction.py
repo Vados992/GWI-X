@@ -32,9 +32,14 @@ def compare(reference,candidate,exact=True):
                 aa,bb=list(csv.reader(fa)),list(csv.reader(fb))
             if len(aa)!=len(bb): raise AssertionError("row count differs: "+name)
             for row,(x,y) in enumerate(zip(aa,bb)):
-                if len(x)!=len(y) or not all(value_equal(v,w) for v,w in zip(x,y)):
+                def equal(col,v,w):
+                    if row and aa[0][col].endswith("_residual"):
+                        try: return all(math.isfinite(float(z)) and abs(float(z))<=1e-4 for z in (v,w))
+                        except ValueError: return False
+                    return value_equal(v,w)
+                if len(x)!=len(y) or not all(equal(col,v,w) for col,(v,w) in enumerate(zip(x,y))):
                     raise AssertionError(f"value differs: {name}, row {row+1}")
-    return dict(status="BYTE_IDENTICAL" if exact else "NUMERIC_MATCH",matched_files=len(files),relative_tolerance=0 if exact else 1e-12,absolute_tolerance=0 if exact else 1e-8)
+    return dict(status="BYTE_IDENTICAL" if exact else "NUMERIC_MATCH",matched_files=len(files),relative_tolerance=0 if exact else 1e-12,absolute_tolerance=0 if exact else 1e-8,residual_bound=0 if exact else 1e-4)
 
 
 if __name__=="__main__":
