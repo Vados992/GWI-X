@@ -1,0 +1,18 @@
+{
+  "status": "REVIEWED",
+  "figures": [
+    "real-data/PT/2026-10-30-final/charts/core_hindcast.png",
+    "real-data/PT/2026-10-30-final/charts/official_accounts.png"
+  ],
+  "checks": [
+    "Actual plotted marks and all panels inspected",
+    "Current units and reference years labelled",
+    "Forecast and naive lines have different dash patterns",
+    "Small-sample and noncausal qualifications retained"
+  ],
+  "evidence": "Native image inspection during authoring; final axis-spacing correction rendered separately",
+  "unperformed": [
+    "Interactive/mobile controls: static figures have none",
+    "Empirical validation of policy effect: unavailable"
+  ]
+}

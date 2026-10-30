@@ -5,13 +5,14 @@ from pathlib import Path
 COLORS=("#006d77","#d1495b","#815ac0","#b16b00")
 
 
-def panel_chart(path,title,panels,subtitle):
+def panel_chart(path,title,panels,subtitle,footer="SYNTHETIC SCENARIOS. No national calibration or causal effect established.",distinct_styles=False):
     width,height=1500,1140
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">', '<rect width="100%" height="100%" fill="#f7f9fb"/>']
     raster=[]
-    def line(x1,y1,x2,y2,color="#d0d7de",stroke=1):
-        svg.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="{stroke}"/>')
-        raster.append(("line",(x1,y1,x2,y2),color,stroke))
+    def line(x1,y1,x2,y2,color="#d0d7de",stroke=1,dash=None):
+        style=f' stroke-dasharray="{dash[0]} {dash[1]}"' if dash else ''
+        svg.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="{stroke}"{style}/>')
+        raster.append(("line",(x1,y1,x2,y2),color,stroke,dash))
     def label(x,y,text,size=20,color="#152738"):
         svg.append(f'<text x="{x}" y="{y}" font-family="sans-serif" font-size="{size}" fill="{color}">{escape(str(text))}</text>')
         raster.append(("text",(x,y-size),str(text),size,color))
@@ -34,20 +35,23 @@ def panel_chart(path,title,panels,subtitle):
             line(left,y,left+pw,y)
             label(left-70,y+7,f"{v:.2f}" if hi-lo<2 else f"{v:.1f}",17)
         shown=years[::2]
-        if shown[-1]!=years[-1]: shown.append(years[-1])
+        if shown[-1]!=years[-1]:
+            if distinct_styles and len(shown)>1 and years[-1]-shown[-1]<2: shown.pop()
+            shown.append(years[-1])
         for x in shown: label(X(x)-22,top+ph+28,str(x),17)
         if lo<0<hi: line(left,Y(0),left+pw,Y(0),"#687788",2)
         for k,(name,points) in enumerate(series):
             color=COLORS[k]
+            dash=((10,5) if k==1 else (3,5) if k==2 else None) if distinct_styles else None
             valid=[(X(x),Y(v)) for x,v in points if v is not None]
-            for a,b in zip(valid,valid[1:]): line(*a,*b,color,3)
+            for a,b in zip(valid,valid[1:]): line(*a,*b,color,3,dash)
             for x,y in valid:
                 svg.append(f'<circle cx="{x}" cy="{y}" r="3.5" fill="{color}"/>')
                 raster.append(("circle",(x-3.5,y-3.5,x+3.5,y+3.5),color))
             ly=top+ph+60+(k//2)*25
             lx=left+(k%2)*300
-            line(lx,ly-7,lx+30,ly-7,color,4); label(lx+40,ly,name,18)
-    label(50,1110,"SYNTHETIC SCENARIOS. No national calibration or causal effect established.",19)
+            line(lx,ly-7,lx+30,ly-7,color,4,dash); label(lx+40,ly,name,18)
+    label(50,1110,footer,19)
     svg.append("</svg>")
     path=Path(path); path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text("\n".join(svg),encoding="utf-8",newline="\n")
@@ -57,7 +61,17 @@ def panel_chart(path,title,panels,subtitle):
         return
     im=Image.new("RGB",(width,height),"#f7f9fb"); d=ImageDraw.Draw(im)
     for op in raster:
-        if op[0]=="line": d.line(op[1],fill=op[2],width=op[3])
+        if op[0]=="line":
+            if op[4]:
+                import math
+                x1,y1,x2,y2=op[1]; length=math.hypot(x2-x1,y2-y1)
+                if length:
+                    step,gap=op[4]; position=0
+                    while position<length:
+                        end=min(position+step,length)
+                        d.line((x1+(x2-x1)*position/length,y1+(y2-y1)*position/length,x1+(x2-x1)*end/length,y1+(y2-y1)*end/length),fill=op[2],width=op[3])
+                        position+=step+gap
+            else: d.line(op[1],fill=op[2],width=op[3])
         elif op[0]=="circle": d.ellipse(op[1],fill=op[2])
         else: d.text(op[1],op[2],font=ImageFont.load_default(size=op[3]),fill=op[4])
     im.save(path.with_suffix(".png"))

@@ -45,9 +45,10 @@ def input_write(root,c):
 
 def manifest(root):
     root=Path(root)
-    excluded={"__pycache__",".venv",".git","results-local","releases"}
+    excluded={"__pycache__",".venv",".git","results-local","releases","private-data"}
     entries={str(p.relative_to(root)).replace("\\","/"):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob("*")) if p.is_file() and p!=root/"manifest.json" and not excluded.intersection(p.relative_to(root).parts) and p.suffix!=".pyc"}
-    json_write(root/"manifest.json",dict(data_status="SYNTHETIC",python=platform.python_version(),algorithm="SHA-256",files=entries))
+    label="SYNTHETIC_LAB_AND_SEPARATE_OFFICIAL_OBSERVATIONS" if (root/"data/official").exists() else "SYNTHETIC"
+    json_write(root/"manifest.json",dict(data_status=label,python=platform.python_version(),algorithm="SHA-256",files=entries))
 
 
 def compare(reform,control):

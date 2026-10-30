@@ -1,0 +1,128 @@
+{
+  "assumptions": {
+    "capital_mapping": "observed net fixed assets including dwellings, proxy for model productive capital",
+    "consumption_and_government": "previous-year official volumes held constant for one-year prediction",
+    "incentive": "neutral 0.65; household tax incentives unobserved",
+    "labour": "aggregate expected core transition at neutral gap/incentive; fixed previous labour force",
+    "other_macro_coefficients": "unchanged illustrative v1.2 assumptions",
+    "potential": "previous observed GDP; gap initialized to zero",
+    "price_state": "1, because demand inputs are already in 2020 chain-volume euros",
+    "productivity": "labour-productivity observations are retained, never relabelled TFP",
+    "public_investment_volume": "nominal government GFCF / previous-year GDP deflator; proxy"
+  },
+  "diagnostic_config": {
+    "fiscal": {
+      "administration_share": 0.025,
+      "annual_borrowing_limit_real": 15000000000,
+      "debt_gate_ratio": 0.85,
+      "debt_hard_ratio": 1.6,
+      "funding_real": 2000000000,
+      "government_consumption_real": 18000000000,
+      "initial_admission_share": 0.15,
+      "initial_debt": 60000000000,
+      "initial_reserve": 800000000,
+      "initial_treasury": 500000000,
+      "interest_rate": 0.03,
+      "investment_share": 0.25,
+      "other_tax_gdp_rate": 0.13,
+      "reserve_deposit_share": 0.1,
+      "reserve_target_real": 1000000000,
+      "subsidy_pool_real": 0.0,
+      "vat_rate": 0.16
+    },
+    "household": {
+      "assistance_real": 8000,
+      "assistance_taper": 0.25,
+      "child_benefit_real": 1800,
+      "consumption_propensity": 0.85,
+      "contribution_relief": 0.02,
+      "disability_real": 14000,
+      "employee_contribution": 0.1,
+      "employer_contribution": 0.22,
+      "emtr_gate": 0.9,
+      "emtr_step_real": 100,
+      "household_topup_cap_real": 2400,
+      "pension_real": 18000,
+      "relief_earnings_cap_real": 40000,
+      "tax_rates": [
+        0.0,
+        0.18,
+        0.28,
+        0.38
+      ],
+      "tax_thresholds_real": [
+        12000,
+        30000,
+        60000
+      ],
+      "topup_max_real": 1200,
+      "topup_phasein_real": 6000,
+      "topup_taper": 0.12,
+      "topup_taper_start_real": 18000
+    },
+    "households": 1200,
+    "label": "SYNTHETIC / NOT A COUNTRY / NOT A FORECAST",
+    "macro": {
+      "capital_real_initial": 656547500000.0,
+      "capital_share": 0.35,
+      "depreciation": 0.05,
+      "employment_gate_loss": 0.01,
+      "gdp_real_initial": 213148500000.0,
+      "incentive_sensitivity": 0.1,
+      "inflation_gate_increment": 0.002,
+      "inflation_initial": 0.02,
+      "inflation_persistence": 0.6,
+      "inflation_target": 0.02,
+      "investment_gap_sensitivity": 0.5,
+      "investment_gdp_share": 0.1426281767459446,
+      "investment_rate_sensitivity": 2.0,
+      "job_finding_rate": 0.3,
+      "labor_gap_sensitivity": 0.5,
+      "phillips_slope": 0.12,
+      "policy_inflation_response": 1.5,
+      "policy_rate_base": 0.03,
+      "productivity_growth": 0.01,
+      "public_investment_efficiency": 0.6,
+      "public_tfp_elasticity": 0.1,
+      "real_income_gate_loss": 0.01,
+      "separation_rate": 0.045,
+      "subsidy_investment_pass_through": 0.25,
+      "wage_growth_share": 0.6
+    },
+    "population_households": 1000000,
+    "scenario": {
+      "demand_shocks": [
+        0.0
+      ],
+      "inflation_shocks": [
+        0.0
+      ],
+      "supply_shocks": [
+        0.0
+      ]
+    },
+    "seed": 1202,
+    "start_year": 2027,
+    "years": 10
+  },
+  "estimated_parameters": {
+    "investment_gdp_share": 0.1426281767459446
+  },
+  "evaluation_start": 2019,
+  "external_anchor_definition": "2018 chain-volume remainder Y-C-G-GFCF; includes nonadditivity, inventories and net exports; NOT observed NX",
+  "external_anchor_eur2020": 5343700000.0,
+  "latest_vintage": true,
+  "original_core_sha256": "0178d417c7f54269d07c48b3567a5c46341274180b3e80f0d536823b168ad2a7",
+  "training_end": 2018,
+  "training_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ]
+}

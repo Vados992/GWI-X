@@ -1,0 +1,16 @@
+flowchart TD
+    E[Eurostat official published aggregates] --> R[Raw responses plus HTTPS receipts and SHA-256]
+    B[Banco de Portugal public BPstat] --> R
+    C[ECB daily policy rate] --> R
+    R --> V[Strict dimensions, units, periods and missing-value checks]
+    V --> S[Immutable SQLite snapshot and inspectable CSV]
+    S --> A[ESA budget and nominal GDP reconciliation]
+    S --> M[One-year lag-only execution of existing macro core]
+    S --> H[Published income statistics deflated by matching income year]
+    A --> D[Russian report, charts, error metrics and limitations]
+    M --> D
+    H --> D
+    L[Licensed observed microdata: NOT AVAILABLE] -.-> G[Full national policy readiness: BLOCKED]
+    T[Verified national tax-benefit rules: NOT IMPLEMENTED] -.-> G
+    F[Authorised funding, reserve and cash bridge: NOT VERIFIED] -.-> G
+    G --> N[No unfunded policy calculation or payments]

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive_entries": 214,
+  "manifest_files_checked": 213,
+  "tests": "75 passed with python -S from clean extraction",
+  "cli_exit_codes": {
+    "reform": 0,
+    "zero_funding": 2,
+    "unfunded_national_policy": 2
+  },
+  "official_snapshot_replay": "PASS; independent CSV/SQLite/raw audit; full policy run BLOCKED",
+  "pdf_byte_reproduction": "Not checked by this script; see the authoring verification receipt",
+  "no_network_or_install_for_model": true
+}

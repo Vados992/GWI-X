@@ -1,0 +1,103 @@
+survey_year,income_reference_year,group_or_statistic,nominal_eur_equivalised,hicp_income_year,real_eur_2020_equivalised,data_status,population_inference,missing_reason
+2009,2008,median_equivalised_income,8282,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2009,2008,mean_equivalised_income,10393,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2009,2008,median_equivalised_A1,6622,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2009,2008,median_equivalised_A1_DCH,5926,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2009,2008,median_equivalised_A2_DCH2,7605,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2009,2008,median_equivalised_A1_GE65,,,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2010,2009,median_equivalised_income,8678,91.95,9775.608917890157694399129962,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2010,2009,mean_equivalised_income,10540,91.95,11873.11799891245241979336596,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2010,2009,median_equivalised_A1,6804,91.95,7664.582055464926590538336052,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2010,2009,median_equivalised_A1_DCH,6243,91.95,7032.625774877650897226753670,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2010,2009,median_equivalised_A2_DCH2,8222,91.95,9261.933224578575312669929309,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2010,2009,median_equivalised_A1_GE65,,91.95,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2011,2010,median_equivalised_income,8410,93.22,9344.644925981549023814632053,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2011,2010,mean_equivalised_income,10407,93.22,11563.58142029607380390474147,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2011,2010,median_equivalised_A1,7000,93.22,7777.944647071443896159622399,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2011,2010,median_equivalised_A1_DCH,6668,93.22,7409.047843810341128513194593,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2011,2010,median_equivalised_A2_DCH2,7721,93.22,8579.072945719802617464063506,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2011,2010,median_equivalised_A1_GE65,,93.22,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2012,2011,median_equivalised_income,8323,96.54,8929.939299772115185415371867,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2012,2011,mean_equivalised_income,10227,96.54,10972.78495960223741454319453,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2012,2011,median_equivalised_A1,7290,96.54,7821.609695463020509633312617,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2012,2011,median_equivalised_A1_DCH,6551,96.54,7028.719494510047648643049513,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2012,2011,median_equivalised_A2_DCH2,7965,96.54,8545.832815413300186451211933,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2012,2011,median_equivalised_A1_GE65,,96.54,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2013,2012,median_equivalised_income,8177,99.22,8536.319895182422898609151381,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2013,2012,mean_equivalised_income,9899,99.22,10333.98931667002620439427535,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2013,2012,median_equivalised_A1,7040,99.22,7349.356984478935698447893570,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2013,2012,median_equivalised_A1_DCH,6706,99.22,7000.680104817577101390848619,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2013,2012,median_equivalised_A2_DCH2,7757,99.22,8097.863938722031848417657730,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2013,2012,median_equivalised_A1_GE65,,99.22,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2014,2013,median_equivalised_income,8229,99.65,8553.535574510787757150025088,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2014,2013,mean_equivalised_income,9856,99.65,10244.70125439036628198695434,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2014,2013,median_equivalised_A1,7067,99.65,7345.708580030105368790767687,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2014,2013,median_equivalised_A1_DCH,6300,99.65,6548.459608630205720020070246,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2014,2013,median_equivalised_A2_DCH2,8123,99.65,8443.355143000501756146512795,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2014,2013,median_equivalised_A1_GE65,,99.65,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2015,2014,median_equivalised_income,8435,99.50,8780.877386934673366834170854,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2015,2014,mean_equivalised_income,9996,99.50,10405.88623115577889447236181,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2015,2014,median_equivalised_A1,7200,99.50,7495.236180904522613065326633,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2015,2014,median_equivalised_A1_DCH,6351,99.50,6611.422914572864321608040201,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2015,2014,median_equivalised_A2_DCH2,8595,99.50,8947.438190954773869346733668,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2015,2014,median_equivalised_A1_GE65,,99.50,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2016,2015,median_equivalised_income,8782,100.00,9096.3956,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2016,2015,mean_equivalised_income,10562,100.00,10940.1196,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2016,2015,median_equivalised_A1,7250,100.00,7509.55,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2016,2015,median_equivalised_A1_DCH,6609,100.00,6845.6022,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2016,2015,median_equivalised_A2_DCH2,9041,100.00,9364.6678,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2016,2015,median_equivalised_A1_GE65,,100.00,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2017,2016,median_equivalised_income,9071,100.64,9335.991454689984101748807631,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2017,2016,mean_equivalised_income,10863,100.64,11180.34121621621621621621622,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2017,2016,median_equivalised_A1,7655,100.64,7878.625794912559618441971383,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2017,2016,median_equivalised_A1_DCH,7208,100.64,7418.567567567567567567567568,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2017,2016,median_equivalised_A2_DCH2,9257,100.64,9527.425079491255961844197138,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2017,2016,median_equivalised_A1_GE65,,100.64,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2018,2017,median_equivalised_income,9346,102.20,9472.198434442270058708414873,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2018,2017,mean_equivalised_income,11063,102.20,11212.38297455968688845401174,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2018,2017,median_equivalised_A1,7840,102.20,7945.863013698630136986301370,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2018,2017,median_equivalised_A1_DCH,7380,102.20,7479.651663405088062622309198,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2018,2017,median_equivalised_A2_DCH2,9520,102.20,9648.547945205479452054794521,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2018,2017,median_equivalised_A1_GE65,,102.20,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2019,2018,median_equivalised_income,10023,103.40,10040.44816247582205029013540,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2019,2018,mean_equivalised_income,11786,103.40,11806.51721470019342359767892,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2019,2018,median_equivalised_A1,8400,103.40,8414.622823984526112185686654,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2019,2018,median_equivalised_A1_DCH,7843,103.40,7856.653191489361702127659574,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2019,2018,median_equivalised_A2_DCH2,10422,103.40,10440.14274661508704061895551,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2019,2018,median_equivalised_A1_GE65,,103.40,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2020,2019,median_equivalised_income,10800,103.71,10786.46225050621926525889500,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2020,2019,mean_equivalised_income,12696,103.71,12680.08562337286664738212323,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2020,2019,median_equivalised_A1,9260,103.71,9248.392633304406518175682191,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2020,2019,median_equivalised_A1_DCH,8731,103.71,8720.055732330537074534760390,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2020,2019,median_equivalised_A2_DCH2,11397,103.71,11382.71391379809083019959502,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2020,2019,median_equivalised_A1_GE65,,103.71,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2021,2020,median_equivalised_income,11089,103.58,11089,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2021,2020,mean_equivalised_income,13113,103.58,13113,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2021,2020,median_equivalised_A1,9800,103.58,9800,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2021,2020,median_equivalised_A1_DCH,9000,103.58,9000,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2021,2020,median_equivalised_A2_DCH2,12158,103.58,12158,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2021,2020,median_equivalised_A1_GE65,,103.58,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2022,2021,median_equivalised_income,11014,104.55,10911.81367766618842659014825,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2022,2021,mean_equivalised_income,13148,104.55,13026.01472979435676709708274,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2022,2021,median_equivalised_A1,10360,104.55,10263.88139646102343376374940,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2022,2021,median_equivalised_A1_DCH,8862,104.55,8779.779626972740315638450502,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2022,2021,median_equivalised_A2_DCH2,11950,104.55,11839.12960306073648971783835,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2022,2021,median_equivalised_A1_GE65,,104.55,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2023,2022,median_equivalised_income,11824,113.03,10835.44121029815093338051845,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2023,2022,mean_equivalised_income,14368,113.03,13166.74723524727948332301159,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2023,2022,median_equivalised_A1,10430,113.03,9557.988144740334424489073697,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2023,2022,median_equivalised_A1_DCH,9559,113.03,8759.809077236132000353888348,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2023,2022,median_equivalised_A2_DCH2,12735,113.03,11670.27603291161638503052287,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2023,2022,median_equivalised_A1_GE65,,113.03,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2024,2023,median_equivalised_income,12646,118.98,11009.18372835770717767692049,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2024,2023,mean_equivalised_income,14951,118.98,13015.83946881828878803160195,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2024,2023,median_equivalised_A1,10586,118.98,9215.816775928727517229786519,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2024,2023,median_equivalised_A1_DCH,9396,118.98,8179.842662632375189107413011,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2024,2023,median_equivalised_A2_DCH2,12589,118.98,10959.56143889729366280047067,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2024,2023,median_equivalised_A1_GE65,,118.98,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP
+2025,2024,median_equivalised_income,14465,122.15,12265.94105607859189521080639,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2025,2024,mean_equivalised_income,17019,122.15,14431.66614817846909537453950,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2025,2024,median_equivalised_A1,12241,122.15,10380.04731887024150634465821,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2025,2024,median_equivalised_A1_DCH,10124,122.15,8584.886778550961932050757266,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2025,2024,median_equivalised_A2_DCH2,14335,122.15,12155.70446172738436348751535,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,
+2025,2024,median_equivalised_A1_GE65,,122.15,,OFFICIAL_STATISTIC_DERIVED_REAL_VALUE,Published equivalised statistic; not individual household records,Missing income or matching income-year HICP

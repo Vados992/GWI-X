@@ -1,0 +1,17 @@
+{
+  "data_status": "OFFICIAL_OBSERVATIONS",
+  "country": "PT",
+  "country_name": "Portugal",
+  "currency": "EUR",
+  "first_year": 2009,
+  "last_year": 2025,
+  "training_end": 2018,
+  "evaluation_start": 2019,
+  "real_price_reference_year": 2020,
+  "snapshot_vintage": "latest observed release fetched at execution; not a historical real-time vintage",
+  "funding_authorisation_eur": null,
+  "programme_opening_reserve_eur": null,
+  "national_tax_benefit_rules_verified": false,
+  "licensed_observed_microdata_available": false,
+  "scope": "Historical aggregate evidence and bounded core diagnostics; no national reform forecast"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "runtime": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "first_audit": {
+    "status": "PASS",
+    "independent_numeric_checks": 185694,
+    "household_rows": 183600,
+    "max_absolute_residual_CU": 1.52587890625e-05,
+    "tolerance_CU": 0.0001
+  },
+  "second_audit": {
+    "status": "PASS",
+    "independent_numeric_checks": 185694,
+    "household_rows": 183600,
+    "max_absolute_residual_CU": 1.52587890625e-05,
+    "tolerance_CU": 0.0001
+  },
+  "same_runtime": {
+    "status": "BYTE_IDENTICAL",
+    "matched_files": 83,
+    "relative_tolerance": 0,
+    "absolute_tolerance": 0,
+    "residual_bound": 0
+  },
+  "published_snapshot": {
+    "status": "NUMERIC_MATCH",
+    "matched_files": 83,
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-08,
+    "residual_bound": 0.0001
+  },
+  "scope": "Regression of the original synthetic experiment; not empirical validation"
+}

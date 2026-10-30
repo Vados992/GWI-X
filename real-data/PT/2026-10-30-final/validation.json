@@ -1,0 +1,89 @@
+{
+  "accounting_checks": 34,
+  "accounting_passed": 34,
+  "accounting_status": "PASS",
+  "additional_spending_eur": 0,
+  "country": "PT",
+  "explicit_missing": 19,
+  "fetched_sources": 15,
+  "full_policy_run": "BLOCKED",
+  "historical_period": [
+    2009,
+    2025
+  ],
+  "kernel_metrics": [
+    {
+      "comparison": "DOES_NOT_BEAT_NAIVE",
+      "core_MAE": 2.555311338174015,
+      "core_RMSE": 3.8348175218632385,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "euro_area_policy_rate",
+      "naive_MAE": 0.6886384335154827,
+      "observations": 6,
+      "unit": "percentage_points"
+    },
+    {
+      "comparison": "DOES_NOT_BEAT_NAIVE",
+      "core_MAE": 5.285423937493596,
+      "core_RMSE": 5.485616963513743,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "gdp_growth",
+      "naive_MAE": 4.882051608229123,
+      "observations": 6,
+      "unit": "percentage_points"
+    },
+    {
+      "comparison": "BEATS_NAIVE",
+      "core_MAE": 1.6277265853745917,
+      "core_RMSE": 2.770903172271138,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "hicp_inflation",
+      "naive_MAE": 2.483333333333333,
+      "observations": 6,
+      "unit": "percentage_points"
+    },
+    {
+      "comparison": "DOES_NOT_BEAT_NAIVE",
+      "core_MAE": 2.685982671060992,
+      "core_RMSE": 3.4157942646235964,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "net_fixed_capital_proxy",
+      "naive_MAE": 1.2435600000000022,
+      "observations": 5,
+      "unit": "billion_EUR2020"
+    },
+    {
+      "comparison": "DOES_NOT_BEAT_NAIVE",
+      "core_MAE": 7.615935019733912,
+      "core_RMSE": 8.650816542584858,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "private_investment_volume_proxy",
+      "naive_MAE": 1.8333313393991066,
+      "observations": 6,
+      "unit": "billion_EUR2020"
+    },
+    {
+      "comparison": "DOES_NOT_BEAT_NAIVE",
+      "core_MAE": 2.299416666666666,
+      "core_RMSE": 2.32340248880817,
+      "interpretation": "Small latest-vintage diagnostic sample; no causal or general forecast validation",
+      "metric": "unemployment_15_74",
+      "naive_MAE": 0.38333333333333286,
+      "observations": 6,
+      "unit": "percentage_points"
+    }
+  ],
+  "kernel_prediction_rows": 35,
+  "limits": [
+    "No licensed real household microdata",
+    "No validated national tax-benefit implementation",
+    "Accrual accounts and Maastricht debt are not a treasury cash ledger",
+    "No verified programme funding or reserve",
+    "Latest-vintage retrospective one-step checks, not real-time forecasts or causal reform evidence"
+  ],
+  "observed_values": 678,
+  "queries": 15,
+  "series": 41,
+  "snapshot_id": "00c781cdc50c86a2922572a3dea5ec279c005fa802af498089e8350e4754300e",
+  "source_status": "COMPLETE"
+}

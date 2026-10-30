@@ -45,7 +45,7 @@ class DeliveryTests(unittest.TestCase):
     def test_manifest_excludes_local_state_and_release_recursion(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d); (root/"source.py").write_text("pass\n")
-            for folder in (".git",".venv","results-local","releases"):
+            for folder in (".git",".venv","results-local","releases","private-data"):
                 p=root/folder; p.mkdir(); (p/"local.txt").write_text("not part of the source manifest")
             manifest(root)
             files=json.loads((root/"manifest.json").read_text())["files"]
@@ -57,10 +57,12 @@ class DeliveryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)/"arbitrary-clone-name"; root.mkdir(); (root/"README.md").write_text("SYNTHETIC")
             (root/"releases").mkdir(); (root/"releases/old.zip").write_bytes(b"not recursively embedded")
+            (root/"private-data").mkdir(); (root/"private-data/licensed.csv").write_bytes(b"not publishable")
             target=Path(d)/"delivery.zip"; module.package(root,target)
             with zipfile.ZipFile(target) as z:
                 self.assertTrue(all(n.startswith("GWI-X-v1.2/") for n in z.namelist()))
                 self.assertFalse(any("releases/" in n for n in z.namelist()))
+                self.assertFalse(any("private-data/" in n for n in z.namelist()))
                 self.assertEqual(z.read("GWI-X-v1.2/README.md"),b"SYNTHETIC")
 
     def test_numeric_comparison_tolerates_only_tiny_float_roundoff(self):

@@ -1,0 +1,7 @@
+metric,unit,observations,core_MAE,naive_MAE,core_RMSE,comparison,interpretation
+euro_area_policy_rate,percentage_points,6,2.555311338174015,0.6886384335154827,3.8348175218632385,DOES_NOT_BEAT_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation
+gdp_growth,percentage_points,6,5.285423937493596,4.882051608229123,5.485616963513743,DOES_NOT_BEAT_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation
+hicp_inflation,percentage_points,6,1.6277265853745917,2.483333333333333,2.770903172271138,BEATS_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation
+net_fixed_capital_proxy,billion_EUR2020,5,2.685982671060992,1.2435600000000022,3.4157942646235964,DOES_NOT_BEAT_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation
+private_investment_volume_proxy,billion_EUR2020,6,7.615935019733912,1.8333313393991066,8.650816542584858,DOES_NOT_BEAT_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation
+unemployment_15_74,percentage_points,6,2.299416666666666,0.38333333333333286,2.32340248880817,DOES_NOT_BEAT_NAIVE,Small latest-vintage diagnostic sample; no causal or general forecast validation

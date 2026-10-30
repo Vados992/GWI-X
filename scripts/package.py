@@ -17,7 +17,7 @@ def package(root,destination):
     manifest(root)
     with zipfile.ZipFile(destination,"w",compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for p in sorted(root.rglob("*")):
-            if not p.is_file() or {"__pycache__","results-local",".venv",".git","releases"}.intersection(p.relative_to(root).parts) or p.suffix==".pyc": continue
+            if not p.is_file() or {"__pycache__","results-local",".venv",".git","releases","private-data"}.intersection(p.relative_to(root).parts) or p.suffix==".pyc": continue
             info=zipfile.ZipInfo(PACKAGE_ROOT+"/"+p.relative_to(root).as_posix(),(2026,10,29,0,0,0))
             info.compress_type=zipfile.ZIP_DEFLATED
             info.external_attr=0o100644<<16

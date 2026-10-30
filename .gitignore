@@ -12,3 +12,7 @@ dist/
 .coverage
 htmlcov/
 work/
+private-data/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
