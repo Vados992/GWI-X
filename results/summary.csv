@@ -1,0 +1,9 @@
+scenario,data_status,status,completed_years,last_year,failure_year,funding_gap,last_debt_gdp,control_status
+baseline,SYNTHETIC,complete,10,2036,,0,0.9605539422373233,complete
+reform,SYNTHETIC,complete,10,2036,,0,0.8342803814953111,complete
+funding_loss,SYNTHETIC,complete,10,2036,,0,0.8451879640020843,complete
+recession,SYNTHETIC,complete,10,2036,,0,0.9385560824676129,complete
+supply_inflation,SYNTHETIC,complete,10,2036,,0,0.7722579217413306,complete
+debt_stress,SYNTHETIC,blocked_unfunded,9,2035,2036,6691445339.064735,1.5545499219393668,blocked_unfunded
+combined,SYNTHETIC,complete,10,2036,,0,0.8780772830947597,complete
+zero_funding,SYNTHETIC,blocked_unfunded,7,2033,2034,59475357.018407956,0.8307898373252994,complete

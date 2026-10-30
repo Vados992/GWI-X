@@ -1,0 +1,94 @@
+{
+  "data_status": "SYNTHETIC",
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.9605539422373233,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "reform",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.8342803814953111,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "funding_loss",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.8451879640020843,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "recession",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.9385560824676129,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "supply_inflation",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.7722579217413306,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "debt_stress",
+      "data_status": "SYNTHETIC",
+      "status": "blocked_unfunded",
+      "completed_years": 9,
+      "last_year": 2035,
+      "failure_year": 2036,
+      "funding_gap": 6691445339.064735,
+      "last_debt_gdp": 1.5545499219393668,
+      "control_status": "blocked_unfunded"
+    },
+    {
+      "scenario": "combined",
+      "data_status": "SYNTHETIC",
+      "status": "complete",
+      "completed_years": 10,
+      "last_year": 2036,
+      "failure_year": null,
+      "funding_gap": 0,
+      "last_debt_gdp": 0.8780772830947597,
+      "control_status": "complete"
+    },
+    {
+      "scenario": "zero_funding",
+      "data_status": "SYNTHETIC",
+      "status": "blocked_unfunded",
+      "completed_years": 7,
+      "last_year": 2033,
+      "failure_year": 2034,
+      "funding_gap": 59475357.018407956,
+      "last_debt_gdp": 0.8307898373252994,
+      "control_status": "complete"
+    }
+  ],
+  "policy": "Failure scenarios are diagnostics, not successful ten-year projections."
+}

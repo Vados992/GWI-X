@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "python": "3.11.9",
+  "data_status": "SYNTHETIC",
+  "tests": {
+    "run": 46,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "csv_audit": {
+    "status": "PASS",
+    "independent_numeric_checks": 185694,
+    "household_rows": 183600,
+    "max_absolute_residual_CU": 1.52587890625e-05,
+    "tolerance_CU": 0.0001
+  },
+  "reproducibility": {
+    "status": "BYTE_IDENTICAL",
+    "matched_files": 83,
+    "command": "python -S -m gwix all --config configs/synthetic.json --out <empty-folder>",
+    "scope": "Every exported CSV and every resolved scenario configuration; optional PNG and environment manifests excluded",
+    "files": [
+      {
+        "path": "baseline/annual.csv",
+        "sha256": "d38158ffde78b770f8069a09d7cfdd61a44df47424d69a06158933021a87fd48"
+      },
+      {
+        "path": "baseline/funds.csv",
+        "sha256": "cc96f4403535636aee00ac69e44500a5c5c85175bc1f945ac944b7a28558a00a"
+      },
+      {
+        "path": "baseline/groups.csv",
+        "sha256": "20514a6cc517a809408406b3e4bb2b11b9573fa5a1358a115a5da55ac8769862"
+      },
+      {
+        "path": "baseline/households.csv",
+        "sha256": "0ce3dbdee60f93045f7479bec7a14267403850a3c10f7bd027da20f882a95c99"
+      },
+      {
+        "path": "baseline/resolved_config.json",
+        "sha256": "a122dbc064bce833badebcfeb8f0c3d9ecea58b74a2c553c6cf1e23040768436"
+      },
+      {
+        "path": "combined/annual.csv",
+        "sha256": "2f643b11de151f00a2174244ef382ba02829cd2c314e88818a58247a06437225"
+      },
+      {
+        "path": "combined/funds.csv",
+        "sha256": "15dae76f014593d162f845d0085b15deb56140ff1a84ac43d2a1c968cb24cbc2"
+      },
+      {
+        "path": "combined/groups.csv",
+        "sha256": "e824bef01a563c4e667c3e755554d29ba7a2764830aade59fb663c5cb60989c8"
+      },
+      {
+        "path": "combined/households.csv",
+        "sha256": "8a689d70d99c9cafd0199f47e192736acdd152ca964d7ccf7e6fc1b045268cb4"
+      },
+      {
+        "path": "combined/resolved_config.json",
+        "sha256": "64d0f696a338e7ca619e0ebe768dc5de175c5933a3c58271c1af7af414b30ddb"
+      },
+      {
+        "path": "comparisons.csv",
+        "sha256": "bb6c47e5673583d53b9b00c47f84d2fa755dec940068a5ec6e617d13d7415b1a"
+      },
+      {
+        "path": "controls/baseline/annual.csv",
+        "sha256": "e7d3eb473a47c26ba3c9df009ccc75d2782aae14273e16c1943d6414d6f1d94f"
+      },
+      {
+        "path": "controls/baseline/funds.csv",
+        "sha256": "1de218f04a8aef1a6e6f9cfbcdbfc70a68359d0eff4b419bf2c7cd8c5aa6e426"
+      },
+      {
+        "path": "controls/baseline/groups.csv",
+        "sha256": "ebcee3937f372b6c0a32bf7632111ca63f4c11d24ecacc30d3026e86e85f18be"
+      },
+      {
+        "path": "controls/baseline/households.csv",
+        "sha256": "9a1148e57401de19ccc1c3107686ab5020d2c682f8fe0d84d16057bf184f25fb"
+      },
+      {
+        "path": "controls/baseline/resolved_config.json",
+        "sha256": "c06c182aea3fd4a0b37e21e0174305464f20481cd3469ffdbcc49a4e08cc70b3"
+      },
+      {
+        "path": "controls/combined/annual.csv",
+        "sha256": "c3b3de997245dd6863110aa168e49f7cc183325d1fb9d91739dcae46a04a8589"
+      },
+      {
+        "path": "controls/combined/funds.csv",
+        "sha256": "823591d707af63ec5b6e5a5d536fad5eb5dd87a91658a429b75f96251b5e77e8"
+      },
+      {
+        "path": "controls/combined/groups.csv",
+        "sha256": "5f17ace5a8fb8bf7c83fdda3e0f11e7a78d573d135ead5b8c353dfd18b66c64c"
+      },
+      {
+        "path": "controls/combined/households.csv",
+        "sha256": "e69593ba610f4b6e3416ef05b89f07fee1b9c018c95fed4f43b557255d00335b"
+      },
+      {
+        "path": "controls/combined/resolved_config.json",
+        "sha256": "df333769624f2e53c568770fc58cf3a1b5d599d6b8eee0a22b52b865992b4d72"
+      },
+      {
+        "path": "controls/debt_stress/annual.csv",
+        "sha256": "433401dffb6c2b7bb03f9a2f24af346aedd247f1c57e86d15d2d24902a1b5e3e"
+      },
+      {
+        "path": "controls/debt_stress/funds.csv",
+        "sha256": "74ff14bf85359147ece8300ae991ba661fc5e9c297d6909b245e16634dd5f225"
+      },
+      {
+        "path": "controls/debt_stress/groups.csv",
+        "sha256": "c71fd4964be9a6b5eeb8913f74be45e82cc8e82022025d02996f4d3a02102b59"
+      },
+      {
+        "path": "controls/debt_stress/households.csv",
+        "sha256": "a90754819eaf7483f886d3b536490302a7457a826f14f79b84f75fc716968e08"
+      },
+      {
+        "path": "controls/debt_stress/resolved_config.json",
+        "sha256": "7038143c82411528d1e306fd352ff58dd892eed51561f443abbaf2db413e6973"
+      },
+      {
+        "path": "controls/funding_loss/annual.csv",
+        "sha256": "4ad8bc68bfacd4c4ef9a874e573f61eada51318cb7925541a009ffb286e6f1e5"
+      },
+      {
+        "path": "controls/funding_loss/funds.csv",
+        "sha256": "037745795baced046b6afeceee77a77db77f30f65c8136ed5c04bc7eca684165"
+      },
+      {
+        "path": "controls/funding_loss/groups.csv",
+        "sha256": "c2e0a08fef5a96dd738a5cc493a9657c7e2b34e9e74941a28a5bcb99c24ed147"
+      },
+      {
+        "path": "controls/funding_loss/households.csv",
+        "sha256": "1257a95625be2cc40442179fc8eefc9629bc7bfcd4198ff122451898758bb5c1"
+      },
+      {
+        "path": "controls/funding_loss/resolved_config.json",
+        "sha256": "e4f94ee8bc4392757bbbf92307aa897b98e697a8d20a9e85ea665b85e004f9e4"
+      },
+      {
+        "path": "controls/recession/annual.csv",
+        "sha256": "1554bc37d344fe2d0f36a3341917afadd23609069d3cd1bf0950c660e689ea6c"
+      },
+      {
+        "path": "controls/recession/funds.csv",
+        "sha256": "351532509cd720e96e06d083a7b608c25d37e26cab7dd417bc57c023bb82f289"
+      },
+      {
+        "path": "controls/recession/groups.csv",
+        "sha256": "6b421bff8701ee909457d56d11cbbe02ac1c2a8cb541ff9c776de5b6b7033d93"
+      },
+      {
+        "path": "controls/recession/households.csv",
+        "sha256": "fc2ca7a9106e0b11c4e190f62dd3142164d403ff0ad6f1ec33dfa4627c79e375"
+      },
+      {
+        "path": "controls/recession/resolved_config.json",
+        "sha256": "bb0a15f43505e46a6114413b2903491a2eb66cca1a8e306ef6dd3be3a628d118"
+      },
+      {
+        "path": "controls/reform/annual.csv",
+        "sha256": "e2d7981e5c91c6cf67a4db9863d3c11f5d4fffc3d60e11dc498b8764685e2720"
+      },
+      {
+        "path": "controls/reform/funds.csv",
+        "sha256": "645340fb57b646aa19de39b999f21762d23e09c74356a6223446d7aeb87d23c1"
+      },
+      {
+        "path": "controls/reform/groups.csv",
+        "sha256": "4cb41916a5841acf7d2eca158946aaea208f538692204b0a814cea20c14f44fe"
+      },
+      {
+        "path": "controls/reform/households.csv",
+        "sha256": "cd88bd2d80ef05833a09a4a486e7503033f4c6700b74096d701f5b065504c68e"
+      },
+      {
+        "path": "controls/reform/resolved_config.json",
+        "sha256": "499c195ecf9d78052f5d8167dda52d18b5ea290e4cf91aaf2a1a12dea6266861"
+      },
+      {
+        "path": "controls/supply_inflation/annual.csv",
+        "sha256": "de9117221d0b7e3b3e682fb4094656bb8f9210f11edf6e4681611552fb9645da"
+      },
+      {
+        "path": "controls/supply_inflation/funds.csv",
+        "sha256": "0c0c69b24ff63d9c3d86ce55f629855f0e7295fcbfc9a11e2824325b005c1381"
+      },
+      {
+        "path": "controls/supply_inflation/groups.csv",
+        "sha256": "b423bbadb1129f5c16fde6725a381101956a63a30363cab744fafaf871fe8e73"
+      },
+      {
+        "path": "controls/supply_inflation/households.csv",
+        "sha256": "221eaca58d2880c2097951157bd346984c8778d22a51e2bf6d878c59415b703d"
+      },
+      {
+        "path": "controls/supply_inflation/resolved_config.json",
+        "sha256": "b7976e7c05676000add1c9bb79afbbb7bb72bdfaf3ab84539eaa66cdb285724d"
+      },
+      {
+        "path": "controls/zero_funding/annual.csv",
+        "sha256": "5eca6b183aaceb7b0f04af85bf3da23917a96b81cae64c4e82dafa36c3e5429a"
+      },
+      {
+        "path": "controls/zero_funding/funds.csv",
+        "sha256": "196a58f05ffed9605d10ee90fcc8c4881aaf2d8e49b1f17144b14dfd3fa7489e"
+      },
+      {
+        "path": "controls/zero_funding/groups.csv",
+        "sha256": "915a32c668953860ee80d9fced759da0f5dd1285a4d28f934fd7644db3a9d659"
+      },
+      {
+        "path": "controls/zero_funding/households.csv",
+        "sha256": "80d5a68da5947c9e14db543e98b1c961c56f11fe7625cafc448afdbd62bc0e12"
+      },
+      {
+        "path": "controls/zero_funding/resolved_config.json",
+        "sha256": "96049bd82c6c4225ec9302d60844a67d138d562e4561f9284e8665317594088b"
+      },
+      {
+        "path": "debt_stress/annual.csv",
+        "sha256": "0f300e40a7fc2203a5a3d4a5c5905426f8011ef8121effaccbdf6ecd7d882134"
+      },
+      {
+        "path": "debt_stress/funds.csv",
+        "sha256": "1900fbd127e6e85781f097531bab9d1e0901528e7afd3ea8e0362c12ab00ba23"
+      },
+      {
+        "path": "debt_stress/groups.csv",
+        "sha256": "594269232ffbdd3177c2301bc4e72f84187b093c7c674320a86376158da4076f"
+      },
+      {
+        "path": "debt_stress/households.csv",
+        "sha256": "741c66692e6133aff4222ecc31713bfc7e551e4660fb386f230242bf1d5064e6"
+      },
+      {
+        "path": "debt_stress/resolved_config.json",
+        "sha256": "56707ebd8054f71137ba27a2e9e7f2798a5fee732c51194d432aedc05fd6a42c"
+      },
+      {
+        "path": "funding_loss/annual.csv",
+        "sha256": "80f275cd6d2bd71bb3258367d7940465440ac3de7912c4c5d9006901d643d086"
+      },
+      {
+        "path": "funding_loss/funds.csv",
+        "sha256": "a2037259b9406eecb124ff31150fdd969febc79017470f985cff0969bdd5c16a"
+      },
+      {
+        "path": "funding_loss/groups.csv",
+        "sha256": "7b478a62616600079cdd860aa0b0bc58444a8d98248fc136459b42f07e244ad0"
+      },
+      {
+        "path": "funding_loss/households.csv",
+        "sha256": "fa75b61ff8e8838e6bc2566e748f0251cd98e2c3f30de118ed37433d116deab9"
+      },
+      {
+        "path": "funding_loss/resolved_config.json",
+        "sha256": "fd7c2adf68a3698018e0b5a46633ac2fb80b2b19a8a0a1f95c343a6107fe187d"
+      },
+      {
+        "path": "inputs/synthetic_households.csv",
+        "sha256": "c1ba7fb169b1868db47876d89ca05a295eb448a56b597ec36ae1a4cb73af333c"
+      },
+      {
+        "path": "recession/annual.csv",
+        "sha256": "6b2e84c4d2bc1eb6d3999b4a2574786fdbe96ba521570e222ebe5dbe537bd6d5"
+      },
+      {
+        "path": "recession/funds.csv",
+        "sha256": "91e195ef47326374654db310a7785d26aec9d700a4f990d11fe181773f4ca4b0"
+      },
+      {
+        "path": "recession/groups.csv",
+        "sha256": "c36a13bc3101cbf774fb8e574456fd8ad9424ee531700af251b337ebe9d87dd4"
+      },
+      {
+        "path": "recession/households.csv",
+        "sha256": "77e5ebc6f28f89764fc1a8950984c1b0ce51bf9803af42f26818766ee3dd2354"
+      },
+      {
+        "path": "recession/resolved_config.json",
+        "sha256": "fa0e229ac9c3bbfcb28d2bf7693b2688dc23ba3073ee2786b304afae8c58dacf"
+      },
+      {
+        "path": "reform/annual.csv",
+        "sha256": "efc3aae0f23fb4b21077579db33aae640f6c0c5a0bdb97fa1099e924f559d545"
+      },
+      {
+        "path": "reform/funds.csv",
+        "sha256": "ca22c247bcfaf96287c4cf711e566821b7fe8875c3c9ed28147c3376a75883e4"
+      },
+      {
+        "path": "reform/groups.csv",
+        "sha256": "8f7f759d2e5d580bb686a2ef6aa2d0e6841d10ca1a27f1433c6fb96b2bdf2042"
+      },
+      {
+        "path": "reform/households.csv",
+        "sha256": "03debcf66a17dee77e5823db73204c3a336488f3181e145d12f63d3e1770b8c9"
+      },
+      {
+        "path": "reform/resolved_config.json",
+        "sha256": "0d22c510048dfcc594362525573883e2adf02ebd152fae2903e560dbf146288d"
+      },
+      {
+        "path": "summary.csv",
+        "sha256": "0167696b2e970822a273b07a534401188b26f6675686b444112ed13d2de786ff"
+      },
+      {
+        "path": "supply_inflation/annual.csv",
+        "sha256": "92284edacc74c8d230647e8c7db91aa2435d23183a4e96c2f6366429ffac6838"
+      },
+      {
+        "path": "supply_inflation/funds.csv",
+        "sha256": "85b5a530a2b9c0d9f406ff823d9f3c519ce53d2b200e4fd96bb767de2c94ca14"
+      },
+      {
+        "path": "supply_inflation/groups.csv",
+        "sha256": "0713a62e12829e248942af9857541a1642b3270274ad8baf7f222a07e908f9bd"
+      },
+      {
+        "path": "supply_inflation/households.csv",
+        "sha256": "2fe5597e82cb176cf019386dfb53f925c7fe272c96d6f526b4815d737dc5adf7"
+      },
+      {
+        "path": "supply_inflation/resolved_config.json",
+        "sha256": "a3d839be956e648213b3e18b827466b131120f1ea0f58a56eaf4dec9a1c6e5fa"
+      },
+      {
+        "path": "zero_funding/annual.csv",
+        "sha256": "2c771a470a7a9631a6464ea6b1e4a5e93d81c285c0b8a44f23308d88227dc712"
+      },
+      {
+        "path": "zero_funding/funds.csv",
+        "sha256": "6fc5e24ea6cf6d68eccc65d698e20cf2ca3a905022514c21d7cead401d1f311c"
+      },
+      {
+        "path": "zero_funding/groups.csv",
+        "sha256": "9eea1f17c98722b90cbd98d853b5ae94ef16cfe551d2204fa57649d3386a4991"
+      },
+      {
+        "path": "zero_funding/households.csv",
+        "sha256": "a3a0eaad84836278a320f95b05663b0f3adfb560c24b567d29354675ac22cd29"
+      },
+      {
+        "path": "zero_funding/resolved_config.json",
+        "sha256": "aae2ff0a6d208c2916696593a484b7d2e8be6123b184a23f9ae36fd9334cbfc8"
+      }
+    ]
+  }
+}

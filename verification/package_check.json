@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "archive_entries": 153,
+  "manifest_files_checked": 152,
+  "tests": "46 passed with python -S from clean extraction",
+  "cli_exit_codes": {
+    "reform": 0,
+    "zero_funding": 2
+  },
+  "pdf_byte_reproduction": "Not checked by this script; see the authoring verification receipt",
+  "no_network_or_install_for_model": true,
+  "scope": "Public package after stable financial aggregation; 46 tests passed from a clean extraction."
+}

@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1140" viewBox="0 0 1500 1140">
+<rect width="100%" height="100%" fill="#f7f9fb"/>
+<text x="50" y="55" font-family="sans-serif" font-size="32" fill="#152738">GWI-X v1.2 | Ten-year linked model</text>
+<text x="50" y="90" font-family="sans-serif" font-size="19" fill="#152738">Fixed synthetic population; annual timing; fully disclosed financing</text>
+<text x="65" y="138" font-family="sans-serif" font-size="25" fill="#152738">Public debt / GDP</text>
+<text x="65" y="165" font-family="sans-serif" font-size="18" fill="#152738">%</text>
+<line x1="90" y1="460.0" x2="690" y2="460.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="467.0" font-family="sans-serif" font-size="17" fill="#152738">59.6</text>
+<line x1="90" y1="387.49999999999994" x2="690" y2="387.49999999999994" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="394.49999999999994" font-family="sans-serif" font-size="17" fill="#152738">69.7</text>
+<line x1="90" y1="315.0" x2="690" y2="315.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="322.0" font-family="sans-serif" font-size="17" fill="#152738">79.8</text>
+<line x1="90" y1="242.50000000000006" x2="690" y2="242.50000000000006" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="249.50000000000006" font-family="sans-serif" font-size="17" fill="#152738">89.9</text>
+<line x1="90" y1="170.0" x2="690" y2="170.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="177.0" font-family="sans-serif" font-size="17" fill="#152738">100.0</text>
+<text x="68.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2027</text>
+<text x="201.33333333333331" y="488" font-family="sans-serif" font-size="17" fill="#152738">2029</text>
+<text x="334.66666666666663" y="488" font-family="sans-serif" font-size="17" fill="#152738">2031</text>
+<text x="468.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2033</text>
+<text x="601.3333333333333" y="488" font-family="sans-serif" font-size="17" fill="#152738">2035</text>
+<text x="668.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2036</text>
+<line x1="90.0" y1="431.93548387096774" x2="156.66666666666666" y2="420.76151417572737" stroke="#006d77" stroke-width="3"/>
+<line x1="156.66666666666666" y1="420.76151417572737" x2="223.33333333333331" y2="409.4487594959608" stroke="#006d77" stroke-width="3"/>
+<line x1="223.33333333333331" y1="409.4487594959608" x2="290.0" y2="396.64714331073503" stroke="#006d77" stroke-width="3"/>
+<line x1="290.0" y1="396.64714331073503" x2="356.66666666666663" y2="382.0218070798595" stroke="#006d77" stroke-width="3"/>
+<line x1="356.66666666666663" y1="382.0218070798595" x2="423.33333333333337" y2="366.694372150337" stroke="#006d77" stroke-width="3"/>
+<line x1="423.33333333333337" y1="366.694372150337" x2="490.0" y2="350.99244524241726" stroke="#006d77" stroke-width="3"/>
+<line x1="490.0" y1="350.99244524241726" x2="556.6666666666667" y2="332.35461919070656" stroke="#006d77" stroke-width="3"/>
+<line x1="556.6666666666667" y1="332.35461919070656" x2="623.3333333333333" y2="310.9453481785372" stroke="#006d77" stroke-width="3"/>
+<line x1="623.3333333333333" y1="310.9453481785372" x2="690.0" y2="288.86426468037115" stroke="#006d77" stroke-width="3"/>
+<circle cx="90.0" cy="431.93548387096774" r="3.5" fill="#006d77"/>
+<circle cx="156.66666666666666" cy="420.76151417572737" r="3.5" fill="#006d77"/>
+<circle cx="223.33333333333331" cy="409.4487594959608" r="3.5" fill="#006d77"/>
+<circle cx="290.0" cy="396.64714331073503" r="3.5" fill="#006d77"/>
+<circle cx="356.66666666666663" cy="382.0218070798595" r="3.5" fill="#006d77"/>
+<circle cx="423.33333333333337" cy="366.694372150337" r="3.5" fill="#006d77"/>
+<circle cx="490.0" cy="350.99244524241726" r="3.5" fill="#006d77"/>
+<circle cx="556.6666666666667" cy="332.35461919070656" r="3.5" fill="#006d77"/>
+<circle cx="623.3333333333333" cy="310.9453481785372" r="3.5" fill="#006d77"/>
+<circle cx="690.0" cy="288.86426468037115" r="3.5" fill="#006d77"/>
+<line x1="90" y1="513" x2="120" y2="513" stroke="#006d77" stroke-width="4"/>
+<text x="130" y="520" font-family="sans-serif" font-size="18" fill="#152738">Reform</text>
+<line x1="90.0" y1="423.0639248579795" x2="156.66666666666666" y2="402.5255140133097" stroke="#d1495b" stroke-width="3"/>
+<line x1="156.66666666666666" y1="402.5255140133097" x2="223.33333333333331" y2="382.49469676961303" stroke="#d1495b" stroke-width="3"/>
+<line x1="223.33333333333331" y1="382.49469676961303" x2="290.0" y2="361.0314651142115" stroke="#d1495b" stroke-width="3"/>
+<line x1="290.0" y1="361.0314651142115" x2="356.66666666666663" y2="337.43353398470055" stroke="#d1495b" stroke-width="3"/>
+<line x1="356.66666666666663" y1="337.43353398470055" x2="423.33333333333337" y2="313.065023884352" stroke="#d1495b" stroke-width="3"/>
+<line x1="423.33333333333337" y1="313.065023884352" x2="490.0" y2="288.9348197036544" stroke="#d1495b" stroke-width="3"/>
+<line x1="490.0" y1="288.9348197036544" x2="556.6666666666667" y2="261.1934411275031" stroke="#d1495b" stroke-width="3"/>
+<line x1="556.6666666666667" y1="261.1934411275031" x2="623.3333333333333" y2="230.2564278939728" stroke="#d1495b" stroke-width="3"/>
+<line x1="623.3333333333333" y1="230.2564278939728" x2="690.0" y2="198.06451612903226" stroke="#d1495b" stroke-width="3"/>
+<circle cx="90.0" cy="423.0639248579795" r="3.5" fill="#d1495b"/>
+<circle cx="156.66666666666666" cy="402.5255140133097" r="3.5" fill="#d1495b"/>
+<circle cx="223.33333333333331" cy="382.49469676961303" r="3.5" fill="#d1495b"/>
+<circle cx="290.0" cy="361.0314651142115" r="3.5" fill="#d1495b"/>
+<circle cx="356.66666666666663" cy="337.43353398470055" r="3.5" fill="#d1495b"/>
+<circle cx="423.33333333333337" cy="313.065023884352" r="3.5" fill="#d1495b"/>
+<circle cx="490.0" cy="288.9348197036544" r="3.5" fill="#d1495b"/>
+<circle cx="556.6666666666667" cy="261.1934411275031" r="3.5" fill="#d1495b"/>
+<circle cx="623.3333333333333" cy="230.2564278939728" r="3.5" fill="#d1495b"/>
+<circle cx="690.0" cy="198.06451612903226" r="3.5" fill="#d1495b"/>
+<line x1="390" y1="513" x2="420" y2="513" stroke="#d1495b" stroke-width="4"/>
+<text x="430" y="520" font-family="sans-serif" font-size="18" fill="#152738">No reform</text>
+<text x="800" y="138" font-family="sans-serif" font-size="25" fill="#152738">Consumer prices</text>
+<text x="800" y="165" font-family="sans-serif" font-size="18" fill="#152738">CPI index; 2027 = 100</text>
+<line x1="825" y1="460.0" x2="1425" y2="460.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="467.0" font-family="sans-serif" font-size="17" fill="#152738">98.3</text>
+<line x1="825" y1="387.4999999999999" x2="1425" y2="387.4999999999999" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="394.4999999999999" font-family="sans-serif" font-size="17" fill="#152738">102.7</text>
+<line x1="825" y1="315.0" x2="1425" y2="315.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="322.0" font-family="sans-serif" font-size="17" fill="#152738">107.1</text>
+<line x1="825" y1="242.50000000000014" x2="1425" y2="242.50000000000014" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="249.50000000000014" font-family="sans-serif" font-size="17" fill="#152738">111.5</text>
+<line x1="825" y1="170.0" x2="1425" y2="170.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="177.0" font-family="sans-serif" font-size="17" fill="#152738">115.9</text>
+<text x="803.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2027</text>
+<text x="936.3333333333333" y="488" font-family="sans-serif" font-size="17" fill="#152738">2029</text>
+<text x="1069.6666666666665" y="488" font-family="sans-serif" font-size="17" fill="#152738">2031</text>
+<text x="1203.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2033</text>
+<text x="1336.3333333333333" y="488" font-family="sans-serif" font-size="17" fill="#152738">2035</text>
+<text x="1403.0" y="488" font-family="sans-serif" font-size="17" fill="#152738">2036</text>
+<line x1="825.0" y1="431.9354838709677" x2="891.6666666666666" y2="398.5636823888422" stroke="#006d77" stroke-width="3"/>
+<line x1="891.6666666666666" y1="398.5636823888422" x2="958.3333333333333" y2="365.48692914927585" stroke="#006d77" stroke-width="3"/>
+<line x1="958.3333333333333" y1="365.48692914927585" x2="1025.0" y2="333.5037795199845" stroke="#006d77" stroke-width="3"/>
+<line x1="1025.0" y1="333.5037795199845" x2="1091.6666666666665" y2="303.2925496563688" stroke="#006d77" stroke-width="3"/>
+<line x1="1091.6666666666665" y1="303.2925496563688" x2="1158.3333333333335" y2="275.71092529901296" stroke="#006d77" stroke-width="3"/>
+<line x1="1158.3333333333335" y1="275.71092529901296" x2="1225.0" y2="251.14250956810088" stroke="#006d77" stroke-width="3"/>
+<line x1="1225.0" y1="251.14250956810088" x2="1291.6666666666667" y2="229.77724571388094" stroke="#006d77" stroke-width="3"/>
+<line x1="1291.6666666666667" y1="229.77724571388094" x2="1358.3333333333333" y2="211.97933873728266" stroke="#006d77" stroke-width="3"/>
+<line x1="1358.3333333333333" y1="211.97933873728266" x2="1425.0" y2="198.0645161290323" stroke="#006d77" stroke-width="3"/>
+<circle cx="825.0" cy="431.9354838709677" r="3.5" fill="#006d77"/>
+<circle cx="891.6666666666666" cy="398.5636823888422" r="3.5" fill="#006d77"/>
+<circle cx="958.3333333333333" cy="365.48692914927585" r="3.5" fill="#006d77"/>
+<circle cx="1025.0" cy="333.5037795199845" r="3.5" fill="#006d77"/>
+<circle cx="1091.6666666666665" cy="303.2925496563688" r="3.5" fill="#006d77"/>
+<circle cx="1158.3333333333335" cy="275.71092529901296" r="3.5" fill="#006d77"/>
+<circle cx="1225.0" cy="251.14250956810088" r="3.5" fill="#006d77"/>
+<circle cx="1291.6666666666667" cy="229.77724571388094" r="3.5" fill="#006d77"/>
+<circle cx="1358.3333333333333" cy="211.97933873728266" r="3.5" fill="#006d77"/>
+<circle cx="1425.0" cy="198.0645161290323" r="3.5" fill="#006d77"/>
+<line x1="825" y1="513" x2="855" y2="513" stroke="#006d77" stroke-width="4"/>
+<text x="865" y="520" font-family="sans-serif" font-size="18" fill="#152738">Reform</text>
+<line x1="825.0" y1="431.9354838709677" x2="891.6666666666666" y2="398.99631239087535" stroke="#d1495b" stroke-width="3"/>
+<line x1="891.6666666666666" y1="398.99631239087535" x2="958.3333333333333" y2="367.0312496868535" stroke="#d1495b" stroke-width="3"/>
+<line x1="958.3333333333333" y1="367.0312496868535" x2="1025.0" y2="336.96901152310375" stroke="#d1495b" stroke-width="3"/>
+<line x1="1025.0" y1="336.96901152310375" x2="1091.6666666666665" y2="309.44689749708334" stroke="#d1495b" stroke-width="3"/>
+<line x1="1091.6666666666665" y1="309.44689749708334" x2="1158.3333333333335" y2="285.1195878456242" stroke="#d1495b" stroke-width="3"/>
+<line x1="1158.3333333333335" y1="285.1195878456242" x2="1225.0" y2="264.1382814351057" stroke="#d1495b" stroke-width="3"/>
+<line x1="1225.0" y1="264.1382814351057" x2="1291.6666666666667" y2="246.42987530741212" stroke="#d1495b" stroke-width="3"/>
+<line x1="1291.6666666666667" y1="246.42987530741212" x2="1358.3333333333333" y2="232.27752067468063" stroke="#d1495b" stroke-width="3"/>
+<line x1="1358.3333333333333" y1="232.27752067468063" x2="1425.0" y2="221.91894986512503" stroke="#d1495b" stroke-width="3"/>
+<circle cx="825.0" cy="431.9354838709677" r="3.5" fill="#d1495b"/>
+<circle cx="891.6666666666666" cy="398.99631239087535" r="3.5" fill="#d1495b"/>
+<circle cx="958.3333333333333" cy="367.0312496868535" r="3.5" fill="#d1495b"/>
+<circle cx="1025.0" cy="336.96901152310375" r="3.5" fill="#d1495b"/>
+<circle cx="1091.6666666666665" cy="309.44689749708334" r="3.5" fill="#d1495b"/>
+<circle cx="1158.3333333333335" cy="285.1195878456242" r="3.5" fill="#d1495b"/>
+<circle cx="1225.0" cy="264.1382814351057" r="3.5" fill="#d1495b"/>
+<circle cx="1291.6666666666667" cy="246.42987530741212" r="3.5" fill="#d1495b"/>
+<circle cx="1358.3333333333333" cy="232.27752067468063" r="3.5" fill="#d1495b"/>
+<circle cx="1425.0" cy="221.91894986512503" r="3.5" fill="#d1495b"/>
+<line x1="1125" y1="513" x2="1155" y2="513" stroke="#d1495b" stroke-width="4"/>
+<text x="1165" y="520" font-family="sans-serif" font-size="18" fill="#152738">No reform</text>
+<text x="65" y="578" font-family="sans-serif" font-size="25" fill="#152738">Employment / eligible adults</text>
+<text x="65" y="605" font-family="sans-serif" font-size="18" fill="#152738">%</text>
+<line x1="90" y1="900.0" x2="690" y2="900.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="907.0" font-family="sans-serif" font-size="17" fill="#152738">84.0</text>
+<line x1="90" y1="827.4999999999998" x2="690" y2="827.4999999999998" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="834.4999999999998" font-family="sans-serif" font-size="17" fill="#152738">85.1</text>
+<line x1="90" y1="754.9999999999995" x2="690" y2="754.9999999999995" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="761.9999999999995" font-family="sans-serif" font-size="17" fill="#152738">86.2</text>
+<line x1="90" y1="682.5000000000002" x2="690" y2="682.5000000000002" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="689.5000000000002" font-family="sans-serif" font-size="17" fill="#152738">87.4</text>
+<line x1="90" y1="610.0" x2="690" y2="610.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="20" y="617.0" font-family="sans-serif" font-size="17" fill="#152738">88.5</text>
+<text x="68.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2027</text>
+<text x="201.33333333333331" y="928" font-family="sans-serif" font-size="17" fill="#152738">2029</text>
+<text x="334.66666666666663" y="928" font-family="sans-serif" font-size="17" fill="#152738">2031</text>
+<text x="468.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2033</text>
+<text x="601.3333333333333" y="928" font-family="sans-serif" font-size="17" fill="#152738">2035</text>
+<text x="668.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2036</text>
+<line x1="90.0" y1="739.1979075850039" x2="156.66666666666666" y2="657.027027027027" stroke="#006d77" stroke-width="3"/>
+<line x1="156.66666666666666" y1="657.027027027027" x2="223.33333333333331" y2="638.0645161290324" stroke="#006d77" stroke-width="3"/>
+<line x1="223.33333333333331" y1="638.0645161290324" x2="290.0" y2="650.7061900610281" stroke="#006d77" stroke-width="3"/>
+<line x1="290.0" y1="650.7061900610281" x2="356.66666666666663" y2="682.3103748910194" stroke="#006d77" stroke-width="3"/>
+<line x1="356.66666666666663" y1="682.3103748910194" x2="423.33333333333337" y2="707.5937227550127" stroke="#006d77" stroke-width="3"/>
+<line x1="423.33333333333337" y1="707.5937227550127" x2="490.0" y2="701.2728857890148" stroke="#006d77" stroke-width="3"/>
+<line x1="490.0" y1="701.2728857890148" x2="556.6666666666667" y2="764.4812554489972" stroke="#006d77" stroke-width="3"/>
+<line x1="556.6666666666667" y1="764.4812554489972" x2="623.3333333333333" y2="846.6521360069734" stroke="#006d77" stroke-width="3"/>
+<line x1="623.3333333333333" y1="846.6521360069734" x2="690.0" y2="840.3312990409764" stroke="#006d77" stroke-width="3"/>
+<circle cx="90.0" cy="739.1979075850039" r="3.5" fill="#006d77"/>
+<circle cx="156.66666666666666" cy="657.027027027027" r="3.5" fill="#006d77"/>
+<circle cx="223.33333333333331" cy="638.0645161290324" r="3.5" fill="#006d77"/>
+<circle cx="290.0" cy="650.7061900610281" r="3.5" fill="#006d77"/>
+<circle cx="356.66666666666663" cy="682.3103748910194" r="3.5" fill="#006d77"/>
+<circle cx="423.33333333333337" cy="707.5937227550127" r="3.5" fill="#006d77"/>
+<circle cx="490.0" cy="701.2728857890148" r="3.5" fill="#006d77"/>
+<circle cx="556.6666666666667" cy="764.4812554489972" r="3.5" fill="#006d77"/>
+<circle cx="623.3333333333333" cy="846.6521360069734" r="3.5" fill="#006d77"/>
+<circle cx="690.0" cy="840.3312990409764" r="3.5" fill="#006d77"/>
+<line x1="90" y1="953" x2="120" y2="953" stroke="#006d77" stroke-width="4"/>
+<text x="130" y="960" font-family="sans-serif" font-size="18" fill="#152738">Reform</text>
+<line x1="90.0" y1="739.1979075850039" x2="156.66666666666666" y2="663.3478639930248" stroke="#d1495b" stroke-width="3"/>
+<line x1="156.66666666666666" y1="663.3478639930248" x2="223.33333333333331" y2="650.7061900610281" stroke="#d1495b" stroke-width="3"/>
+<line x1="223.33333333333331" y1="650.7061900610281" x2="290.0" y2="682.3103748910194" stroke="#d1495b" stroke-width="3"/>
+<line x1="290.0" y1="682.3103748910194" x2="356.66666666666663" y2="732.8770706190052" stroke="#d1495b" stroke-width="3"/>
+<line x1="356.66666666666663" y1="732.8770706190052" x2="423.33333333333337" y2="764.4812554489972" stroke="#d1495b" stroke-width="3"/>
+<line x1="423.33333333333337" y1="764.4812554489972" x2="490.0" y2="732.8770706190052" stroke="#d1495b" stroke-width="3"/>
+<line x1="490.0" y1="732.8770706190052" x2="556.6666666666667" y2="789.7646033129897" stroke="#d1495b" stroke-width="3"/>
+<line x1="556.6666666666667" y1="789.7646033129897" x2="623.3333333333333" y2="871.9354838709676" stroke="#d1495b" stroke-width="3"/>
+<line x1="623.3333333333333" y1="871.9354838709676" x2="690.0" y2="865.6146469049679" stroke="#d1495b" stroke-width="3"/>
+<circle cx="90.0" cy="739.1979075850039" r="3.5" fill="#d1495b"/>
+<circle cx="156.66666666666666" cy="663.3478639930248" r="3.5" fill="#d1495b"/>
+<circle cx="223.33333333333331" cy="650.7061900610281" r="3.5" fill="#d1495b"/>
+<circle cx="290.0" cy="682.3103748910194" r="3.5" fill="#d1495b"/>
+<circle cx="356.66666666666663" cy="732.8770706190052" r="3.5" fill="#d1495b"/>
+<circle cx="423.33333333333337" cy="764.4812554489972" r="3.5" fill="#d1495b"/>
+<circle cx="490.0" cy="732.8770706190052" r="3.5" fill="#d1495b"/>
+<circle cx="556.6666666666667" cy="789.7646033129897" r="3.5" fill="#d1495b"/>
+<circle cx="623.3333333333333" cy="871.9354838709676" r="3.5" fill="#d1495b"/>
+<circle cx="690.0" cy="865.6146469049679" r="3.5" fill="#d1495b"/>
+<line x1="390" y1="953" x2="420" y2="953" stroke="#d1495b" stroke-width="4"/>
+<text x="430" y="960" font-family="sans-serif" font-size="18" fill="#152738">No reform</text>
+<text x="800" y="578" font-family="sans-serif" font-size="25" fill="#152738">Real disposable household income</text>
+<text x="800" y="605" font-family="sans-serif" font-size="18" fill="#152738">billion base-year CU / year</text>
+<line x1="825" y1="900.0" x2="1425" y2="900.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="907.0" font-family="sans-serif" font-size="17" fill="#152738">29.48</text>
+<line x1="825" y1="827.4999999999997" x2="1425" y2="827.4999999999997" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="834.4999999999997" font-family="sans-serif" font-size="17" fill="#152738">29.86</text>
+<line x1="825" y1="755.0" x2="1425" y2="755.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="762.0" font-family="sans-serif" font-size="17" fill="#152738">30.25</text>
+<line x1="825" y1="682.5000000000003" x2="1425" y2="682.5000000000003" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="689.5000000000003" font-family="sans-serif" font-size="17" fill="#152738">30.63</text>
+<line x1="825" y1="610.0" x2="1425" y2="610.0" stroke="#d0d7de" stroke-width="1"/>
+<text x="755" y="617.0" font-family="sans-serif" font-size="17" fill="#152738">31.02</text>
+<text x="803.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2027</text>
+<text x="936.3333333333333" y="928" font-family="sans-serif" font-size="17" fill="#152738">2029</text>
+<text x="1069.6666666666665" y="928" font-family="sans-serif" font-size="17" fill="#152738">2031</text>
+<text x="1203.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2033</text>
+<text x="1336.3333333333333" y="928" font-family="sans-serif" font-size="17" fill="#152738">2035</text>
+<text x="1403.0" y="928" font-family="sans-serif" font-size="17" fill="#152738">2036</text>
+<line x1="825.0" y1="823.4901855967051" x2="891.6666666666666" y2="744.041914932812" stroke="#006d77" stroke-width="3"/>
+<line x1="891.6666666666666" y1="744.041914932812" x2="958.3333333333333" y2="685.3992322711301" stroke="#006d77" stroke-width="3"/>
+<line x1="958.3333333333333" y1="685.3992322711301" x2="1025.0" y2="652.8290114567378" stroke="#006d77" stroke-width="3"/>
+<line x1="1025.0" y1="652.8290114567378" x2="1091.6666666666665" y2="665.0098379118431" stroke="#006d77" stroke-width="3"/>
+<line x1="1091.6666666666665" y1="665.0098379118431" x2="1158.3333333333335" y2="650.6828592823395" stroke="#006d77" stroke-width="3"/>
+<line x1="1158.3333333333335" y1="650.6828592823395" x2="1225.0" y2="638.0645161290321" stroke="#006d77" stroke-width="3"/>
+<line x1="1225.0" y1="638.0645161290321" x2="1291.6666666666667" y2="654.4131787920684" stroke="#006d77" stroke-width="3"/>
+<line x1="1291.6666666666667" y1="654.4131787920684" x2="1358.3333333333333" y2="675.0027961155914" stroke="#006d77" stroke-width="3"/>
+<line x1="1358.3333333333333" y1="675.0027961155914" x2="1425.0" y2="658.0619230398036" stroke="#006d77" stroke-width="3"/>
+<circle cx="825.0" cy="823.4901855967051" r="3.5" fill="#006d77"/>
+<circle cx="891.6666666666666" cy="744.041914932812" r="3.5" fill="#006d77"/>
+<circle cx="958.3333333333333" cy="685.3992322711301" r="3.5" fill="#006d77"/>
+<circle cx="1025.0" cy="652.8290114567378" r="3.5" fill="#006d77"/>
+<circle cx="1091.6666666666665" cy="665.0098379118431" r="3.5" fill="#006d77"/>
+<circle cx="1158.3333333333335" cy="650.6828592823395" r="3.5" fill="#006d77"/>
+<circle cx="1225.0" cy="638.0645161290321" r="3.5" fill="#006d77"/>
+<circle cx="1291.6666666666667" cy="654.4131787920684" r="3.5" fill="#006d77"/>
+<circle cx="1358.3333333333333" cy="675.0027961155914" r="3.5" fill="#006d77"/>
+<circle cx="1425.0" cy="658.0619230398036" r="3.5" fill="#006d77"/>
+<line x1="825" y1="953" x2="855" y2="953" stroke="#006d77" stroke-width="4"/>
+<text x="865" y="960" font-family="sans-serif" font-size="18" fill="#152738">Reform</text>
+<line x1="825.0" y1="871.9354838709679" x2="891.6666666666666" y2="824.3655548311627" stroke="#d1495b" stroke-width="3"/>
+<line x1="891.6666666666666" y1="824.3655548311627" x2="958.3333333333333" y2="798.58214114854" stroke="#d1495b" stroke-width="3"/>
+<line x1="958.3333333333333" y1="798.58214114854" x2="1025.0" y2="787.8695824704862" stroke="#d1495b" stroke-width="3"/>
+<line x1="1025.0" y1="787.8695824704862" x2="1091.6666666666665" y2="807.0627675767249" stroke="#d1495b" stroke-width="3"/>
+<line x1="1091.6666666666665" y1="807.0627675767249" x2="1158.3333333333335" y2="793.1821236956282" stroke="#d1495b" stroke-width="3"/>
+<line x1="1158.3333333333335" y1="793.1821236956282" x2="1225.0" y2="770.0311974024415" stroke="#d1495b" stroke-width="3"/>
+<line x1="1225.0" y1="770.0311974024415" x2="1291.6666666666667" y2="787.5074296004111" stroke="#d1495b" stroke-width="3"/>
+<line x1="1291.6666666666667" y1="787.5074296004111" x2="1358.3333333333333" y2="803.3636057486664" stroke="#d1495b" stroke-width="3"/>
+<line x1="1358.3333333333333" y1="803.3636057486664" x2="1425.0" y2="784.1510077149824" stroke="#d1495b" stroke-width="3"/>
+<circle cx="825.0" cy="871.9354838709679" r="3.5" fill="#d1495b"/>
+<circle cx="891.6666666666666" cy="824.3655548311627" r="3.5" fill="#d1495b"/>
+<circle cx="958.3333333333333" cy="798.58214114854" r="3.5" fill="#d1495b"/>
+<circle cx="1025.0" cy="787.8695824704862" r="3.5" fill="#d1495b"/>
+<circle cx="1091.6666666666665" cy="807.0627675767249" r="3.5" fill="#d1495b"/>
+<circle cx="1158.3333333333335" cy="793.1821236956282" r="3.5" fill="#d1495b"/>
+<circle cx="1225.0" cy="770.0311974024415" r="3.5" fill="#d1495b"/>
+<circle cx="1291.6666666666667" cy="787.5074296004111" r="3.5" fill="#d1495b"/>
+<circle cx="1358.3333333333333" cy="803.3636057486664" r="3.5" fill="#d1495b"/>
+<circle cx="1425.0" cy="784.1510077149824" r="3.5" fill="#d1495b"/>
+<line x1="1125" y1="953" x2="1155" y2="953" stroke="#d1495b" stroke-width="4"/>
+<text x="1165" y="960" font-family="sans-serif" font-size="18" fill="#152738">No reform</text>
+<text x="50" y="1110" font-family="sans-serif" font-size="19" fill="#152738">SYNTHETIC SCENARIOS. No national calibration or causal effect established.</text>
+</svg>

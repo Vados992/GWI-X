@@ -1,0 +1,26 @@
+{
+  "data_status": "SYNTHETIC",
+  "charts": {
+    "reviewed": [
+      "overview",
+      "stress_comparison",
+      "funding_stress"
+    ],
+    "surface": "exported 1500x1140 PNGs and the PDF chart pages",
+    "checked": [
+      "units and percentage points",
+      "scenario identity",
+      "readable legends",
+      "no label overlap",
+      "truncated failed scenarios"
+    ]
+  },
+  "pdf": {
+    "pages": 14,
+    "renderer": "Poppler pdftoppm, 1200-pixel page render",
+    "scope": "All page renders reviewed as a contact sheet; equations, result tables and architecture additionally inspected at page resolution",
+    "status": "PASS",
+    "note": "Renderer printed missing-display-font notices for unused system font aliases; embedded Cyrillic text and final pages rendered correctly.",
+    "publication_revision": "Verification count updated to 46 and stable summation described; affected pages 8-10 rendered and reviewed; other layout unchanged."
+  }
+}
